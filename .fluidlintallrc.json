@@ -10,6 +10,14 @@
     "jsonlint": {
         "excludes": ["./src/_data/assets.json"]
     },
+    "lintspaces": {
+        "newlines": {
+            "excludes": [
+                "./src/assets/**/*.woff",
+                "./src/assets/**/*.woff2"
+            ]
+        }
+    },
     "markdownlint": {
         "excludes": ["./CHANGELOG.md"]
     }

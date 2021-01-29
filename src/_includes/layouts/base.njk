@@ -6,28 +6,30 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="manifest" href="/manifest.webmanifest">
         {% include "partials/global/icons.njk" %}
-        <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script>
+        {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
         {% include "partials/global/stylesheets.njk" %}
     </head>
     <body class="{{ bodyClass if bodyClass else "page" }}">
-        {% uioTemplate %}
+        <a id="skip-to-content" href="#main">Skip to content</a>
+        {# {% uioTemplate %} #}
         {% include "partials/global/header.njk" %}
-        <main>
-            <article>
-                {% block pageHeader %}
-                <header>
-                    <h1>{{ title }}</h1>
-                </header>
-                {% endblock %}
-                <nav class="flc-toc-tocContainer"></nav>
-                {% block content %}
-                <div class="content">
-                {{ content | safe }}
-                </div>
-                {% endblock %}
-
-            </article>
+        <main id="main">
+            <div class="wrapper flow">
+                <article class="flow">
+                    {% block pageHeader %}
+                    <header class="flow">
+                        <h1>{{ title }}</h1>
+                    </header>
+                    {% endblock %}
+                    <nav class="flc-toc-tocContainer"></nav>
+                    {% block content %}
+                    <div class="content flow">
+                    {{ content | safe }}
+                    </div>
+                    {% endblock %}
+                </article>
+            </div>
         </main>
         {% include "partials/global/footer.njk" %}
         {% uioInit %}
