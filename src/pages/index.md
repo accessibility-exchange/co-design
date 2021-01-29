@@ -1,5 +1,5 @@
 ---
-title: Accessibility in Action
+title: Co-designing Accessibility in Action
 permalink: /
 eleventyNavigation:
     key: Home
@@ -12,10 +12,10 @@ help deliver on the legislation’s immense potential to mobilize effective enga
 federally-regulated entities in creating an accessible and inclusive Canada that fully respects and protects the human
 rights of people with disabilities.
 
-[Learn more **about the project** &rarr;](/about/)
+[Learn more **about the project** &rarr;](https://irisinstitute.ca/priority_area/accessible-inclusive-supports-services/)
 
-[Explore **updates from the project team** &rarr;](/updates/)
+[Explore **updates from the co-design and development team** &rarr;](/updates/)
 
-[Discover **upcoming workshops and co-design sessions** &rarr;](/events/)
+[Discover **upcoming co-design sessions** &rarr;](/events/)
 
-[Browse **project documentation and resources** &rarr;](/resources/)
+[Browse **project resources for co-designers** &rarr;](/resources/)
