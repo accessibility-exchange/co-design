@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "post" %}
+
+{% block pageHeader %}
+<header>
+    <h1>{{ title }}</h1>
+</header>
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    {{ content | safe }}
+</div>
+{% endblock %}
