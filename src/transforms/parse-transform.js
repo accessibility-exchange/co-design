@@ -15,7 +15,7 @@ const jsdom = require("jsdom");
 const {JSDOM} = jsdom;
 
 module.exports = function (value, outputPath) {
-    if (outputPath.endsWith(".html")) {
+    if (outputPath && outputPath.indexOf(".html") > -1) {
         const DOM = new JSDOM(value, {
             resources: "usable"
         });
