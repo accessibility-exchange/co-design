@@ -14,7 +14,10 @@
         "newlines": {
             "excludes": [
                 "./src/assets/**/*.woff",
-                "./src/assets/**/*.woff2"
+                "./src/assets/**/*.woff2",
+                "./src/pages/*.md",
+                "./src/sessions/*.md",
+                "./src/updates/*.md"
             ]
         }
     },
