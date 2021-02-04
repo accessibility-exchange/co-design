@@ -8,7 +8,7 @@
     {% for item in sessions %}
         <article class="entry">
             <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-            <p class="metadata"><time datetime="{{ item.data.date | isoDate }}" class="dt-start">{{ item.data.date | formatDate }}</time></p>
+            <p class="metadata"><time datetime="{{ item.data.start | isoDate }}" class="dt-start">{{ item.data.start | formatDate }}</time></p>
             {% if item.data.description %}
             <p>{{ item.data.description | safe }}</p>
             {% endif %}
