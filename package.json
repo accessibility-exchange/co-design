@@ -1,7 +1,8 @@
 {
-    "name": "trivet",
-    "version": "0.1.0-dev.0",
-    "description": "Trivet is a simple starter kit for Eleventy-based static sites for the Fluid Project.",
+    "name": "@accessibility-in-action/co-design",
+    "version": "1.0.0",
+    "private": true,
+    "description": "The co-design website for Accessibility in Action.",
     "scripts": {
         "build": "npm-run-all -l clean build:*",
         "build:webpack": "mix --production",
