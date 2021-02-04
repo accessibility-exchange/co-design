@@ -1,4 +1,4 @@
 {
     "layout": "layouts/update.njk",
-    "permalink": "/updates/{{ title | slug }}/"
+    "permalink": "/updates/{{ date | date: '%Y/%m/%d' }}/{{ title | slug }}/"
 }

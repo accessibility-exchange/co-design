@@ -8,6 +8,8 @@
         {% include "partials/global/icons.njk" %}
         {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
+        {% block headerScripts %}
+        {% endblock %}
         {% include "partials/global/stylesheets.njk" %}
     </head>
     <body class="{{ bodyClass if bodyClass else "page" }}">
@@ -20,7 +22,7 @@
                     {% block pageHeader %}
                     <header class="flow">
                         {% if page.url !== "/" -%}
-                        <p class="breadcrumb"><a href="/" rel="home">Home</a> / {{ title }}</p>
+                        <p class="breadcrumb"><a href="/" rel="home">Home</a> <span class="sep">/</span> {{ title }}</p>
                         {%- endif %}
                         <h1>{{ title }}</h1>
                     </header>
@@ -35,8 +37,6 @@
             </div>
         </main>
         {% include "partials/global/footer.njk" %}
-        {% uioInit %}
-        {% block footerScripts %}
-        {% endblock %}
+        {# {% uioInit %} #}
     </body>
 </html>

@@ -6,9 +6,9 @@
 {% if updates.length %}
     <div class="flow">
     {% for item in updates %}
-        <article class="entry">
+        <article class="h-entry">
             <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-            <p class="metadata">By <span class="author">{{ author if author else "the Inclusive Design Research Centre" }}</span> – <time datetime="{{ item.data.date | isoDate }}" class="dt-published">{{ item.data.date | formatDate }}</time></p>
+            <p class="metadata">Published by {% if not item.data.author %}the {% endif %}<span class="p-author h-card">{{ item.data.author if item.data.author else "Inclusive Design Research Centre" }}</span> on <time datetime="{{ item.data.date | isoDate }}" class="dt-published">{{ item.data.date | formatDate }}</time></p>
             {% if item.data.description %}
             <p>{{ item.data.description | safe }}</p>
             {% endif %}

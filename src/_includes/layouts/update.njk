@@ -1,12 +1,13 @@
 {% extends "layouts/base.njk" %}
 
 {% set bodyClass = "update" %}
+{% set articleClass = "h-entry" %}
 
 {% block pageHeader %}
 <header class="flow">
-    <p class="breadcrumb"><a href="/updates/">Updates</a> / {{ title }}</p>
-    <h1>{{ title }}</h1>
-    <time datetime="{{ date | isoDate }}">{{ date | formatDate }}</time>
+    <p class="breadcrumb"><a href="/updates/">Updates</a> <span class="sep">/</span> {{ title }}</p>
+    <h1 class="p-name">{{ title }}</h1>
+    <p class="metadata">Published by {% if not author %}the {% endif %}<span class="p-author h-card">{{ author if author else "Inclusive Design Research Centre" }}</span> on <time datetime="{{ date | isoDate }}" class="dt-published">{{ date | formatDate }}</time></p>
 </header>
 {% endblock %}
 

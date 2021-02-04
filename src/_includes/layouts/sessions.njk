@@ -8,7 +8,7 @@
     {% for item in sessions %}
         <article class="entry h-event">
             <h2 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-            <p class="metadata"><time class="dt-start" datetime="{{ item.data.start | isoDate }}"><strong>{{ item.data.start | formatDate }}</strong> from <strong>{{ item.data.start | formatTime }}</strong></time> to <time class="dt-end" datetime="{{ item.data.end | isoDate }}"><strong>{{ item.data.end | formatTime }}</strong></time></p>
+            <p class="metadata"><time class="dt-start" datetime="{{ item.data.start | isoDate }}"><span class="date">{{ item.data.start | formatDate }}</span> from <span class="time">{{ item.data.start | formatTime }}</span></time> to <time class="dt-end" datetime="{{ item.data.end | isoDate }}">{{ item.data.end | formatTime }}</time></p>
             {% if item.data.description %}
             <p class="p-summary">{{ item.data.description | safe }}</p>
             {% endif %}
@@ -19,4 +19,8 @@
     {% include "partials/components/pagination.njk" %}
     {% endif %}
 {% endif %}
+{% endblock %}
+
+{% block headerScripts %}
+        <script type="text/javascript" src="/assets{{ assets['/scripts/sessions.js'] }}" defer></script>
 {% endblock %}
