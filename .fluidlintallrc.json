@@ -19,6 +19,11 @@
         }
     },
     "markdownlint": {
-        "excludes": ["./CHANGELOG.md"]
+        "excludes": [
+            "./src/pages/*.md",
+            "./src/sessions/*.md",
+            "./src/updates/*.md",
+            "./CHANGELOG.md"
+        ]
     }
 }
