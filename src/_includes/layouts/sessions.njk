@@ -6,11 +6,11 @@
 {% if sessions.length %}
     <div class="flow">
     {% for item in sessions %}
-        <article class="entry">
-            <h2><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-            <p class="metadata"><time datetime="{{ item.data.start | isoDate }}" class="dt-start">{{ item.data.start | formatDate }}</time></p>
+        <article class="entry h-event">
+            <h2 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <p class="metadata"><time class="dt-start" datetime="{{ item.data.start | isoDate }}"><strong>{{ item.data.start | formatDate }}</strong> from <strong>{{ item.data.start | formatTime }}</strong></time> to <time class="dt-end" datetime="{{ item.data.end | isoDate }}"><strong>{{ item.data.end | formatTime }}</strong></time></p>
             {% if item.data.description %}
-            <p>{{ item.data.description | safe }}</p>
+            <p class="p-summary">{{ item.data.description | safe }}</p>
             {% endif %}
         </article>
     {% endfor %}

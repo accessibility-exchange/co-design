@@ -1,17 +1,18 @@
 {% extends "layouts/base.njk" %}
 
 {% set bodyClass = "session" %}
+{% set articleClass = "h-event" %}
 
 {% block pageHeader %}
 <header class="flow">
     <p class="breadcrumb"><a href="/" rel="home">Home</a> / <a href="/sessions/">Sessions</a> / {{ title }}</p>
-    <h1>{{ title }}</h1>
-    <time datetime="{{ start | isoDate }}">{{ start | formatDate }}</time>
+    <h1 class="p-name">{{ title }}</h1>
+    <p><time class="dt-start" datetime="{{ start | isoDate }}"><strong>{{ start | formatDate }}</strong> from <strong>{{ start | formatTime }}</strong></time> to <time class="dt-end" datetime="{{ end | isoDate }}"><strong>{{ end | formatTime }}</strong></time></p>
 </header>
 {% endblock %}
 
 {% block content %}
-<div class="content flow">
+<div class="content flow p-summary">
     {{ content | safe }}
 </div>
 {% endblock %}

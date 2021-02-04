@@ -16,7 +16,7 @@
         {% include "partials/global/header.njk" %}
         <main id="main">
             <div class="wrapper flow">
-                <article class="flow">
+                <article class="flow{% if articleClass %} {{ articleClass }}{% endif %}">
                     {% block pageHeader %}
                     <header class="flow">
                         {% if page.url !== "/" -%}

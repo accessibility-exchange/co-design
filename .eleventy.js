@@ -13,6 +13,7 @@ https://github.com/fluid-project/trivet/raw/main/LICENSE.md.
 "use strict";
 
 const fs = require("fs");
+const { DateTime } = require("luxon");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
@@ -29,6 +30,13 @@ module.exports = function (config) {
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
+
+    // Filters
+    config.addFilter("formatTime", function (date) {
+        return DateTime.fromISO(new Date(date).toISOString())
+            .setZone("America/Toronto")
+            .toFormat("t ZZZZ");
+    });
 
     // Passthrough copy
     config.addPassthroughCopy({"src/admin/": "admin"});
