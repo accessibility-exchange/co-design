@@ -52,8 +52,8 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Start", name: "start", widget: "datetime", timeFormat: false}
-      - {label: "End", name: "end", widget: "datetime", timeFormat: false}
+      - {label: "Start", name: "start", widget: "datetime"}
+      - {label: "End", name: "end", widget: "datetime"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
