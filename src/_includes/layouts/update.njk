@@ -1,0 +1,17 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "update" %}
+
+{% block pageHeader %}
+<header class="flow">
+    <p class="breadcrumb"><a href="/updates/">Updates</a> / {{ title }}</p>
+    <h1>{{ title }}</h1>
+    <time datetime="{{ date | isoDate }}">{{ date | formatDate }}</time>
+</header>
+{% endblock %}
+
+{% block content %}
+<div class="content flow">
+    {{ content | safe }}
+</div>
+{% endblock %}

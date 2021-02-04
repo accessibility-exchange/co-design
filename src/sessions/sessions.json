@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/session.njk",
+    "permalink": "/sessions/{{ title | slug }}/"
+}

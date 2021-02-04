@@ -1,9 +1,10 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = "post" %}
+{% set bodyClass = "session" %}
 
 {% block pageHeader %}
 <header class="flow">
+    <p class="breadcrumb"><a href="/" rel="home">Home</a> / <a href="/sessions/">Sessions</a> / {{ title }}</p>
     <h1>{{ title }}</h1>
     <time datetime="{{ date | isoDate }}">{{ date | formatDate }}</time>
 </header>

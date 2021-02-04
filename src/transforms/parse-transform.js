@@ -21,12 +21,25 @@ module.exports = function (value, outputPath) {
         });
 
         const document = DOM.window.document;
-        const articleImages = [...document.querySelectorAll("main article img")];
+        const images = [...document.querySelectorAll("main img")];
+        const links = [...document.querySelectorAll("main a")];
 
-        if (articleImages.length) {
-            articleImages.forEach(image => {
+        if (images.length) {
+            images.forEach(image => {
                 // Enable native lazy-loading.
                 image.setAttribute("loading", "lazy");
+            });
+        }
+
+        if (links.length) {
+            links.forEach(link => {
+                if (
+                    !link.href.startsWith("/")
+                    && !link.href.startsWith("#")
+                    && !link.href.startsWith("https://accessibility-in-action.inclusivedesign.ca/")
+                ) {
+                    link.setAttribute("rel", "external");
+                }
             });
         }
 

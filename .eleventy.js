@@ -23,9 +23,6 @@ const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
-// Import data files
-const site = require("./src/_data/site.json");
-
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
@@ -37,22 +34,32 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
     config.addPassthroughCopy({"src/assets/icons": "/"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/posts/images": "posts/images"});
+    config.addPassthroughCopy({"src/assets/media": "assets/media"});
 
     const now = new Date();
 
     // Custom collections
-    const livePosts = post => post.date <= now && !post.data.draft;
-    config.addCollection("posts", collection => {
+
+    // Updates
+    const liveUpdates = update => update.date <= now && !update.data.draft;
+    config.addCollection("updates", collection => {
         return [
-            ...collection.getFilteredByGlob("./src/posts/*.md").filter(livePosts)
+            ...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)
         ];
     });
-    // The following collection is used to distribute posts into different pages. However, the default pagination has not been set in fluidproject.org and all posts are shown on single page
-    config.addCollection("postFeed", collection => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md").filter(livePosts)]
+
+    // Sessions
+    config.addCollection("sessions", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/sessions/*.md")
+        ];
+    });
+
+    // RSS Feed
+    config.addCollection("updatesFeed", collection => {
+        return [...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)]
             .reverse()
-            .slice(0, site.maxPostsPerPage);
+            .slice(0, 10);
     });
 
     // Plugins

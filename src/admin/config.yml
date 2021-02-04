@@ -1,0 +1,60 @@
+
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+site_url: "https://accessibility-in-action.inclusivedesign.ca"
+media_folder: "src/assets/media"
+public_folder: "/assets/media"
+collections:
+  - name: updates
+    label: Updates
+    label_singular: Update
+    folder: "src/updates"
+    slug: "{{slug}}"
+    preview_path: "/updates/{{slug}}"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", timeFormat: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: "src/pages"
+    slug: "{{slug}}"
+    preview_path: "/{{slug}}/"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: sessions
+    label: Sessions
+    label_singular: Session
+    folder: "src/sessions"
+    slug: "{{slug}}"
+    preview_path: "/sessions/{{slug}}/"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", timeFormat: false}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
+      - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

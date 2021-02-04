@@ -19,6 +19,9 @@
                 <article class="flow">
                     {% block pageHeader %}
                     <header class="flow">
+                        {% if page.url !== "/" -%}
+                        <p class="breadcrumb"><a href="/" rel="home">Home</a> / {{ title }}</p>
+                        {%- endif %}
                         <h1>{{ title }}</h1>
                     </header>
                     {% endblock %}

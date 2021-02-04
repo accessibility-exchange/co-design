@@ -14,10 +14,10 @@ and inclusive Canada that fully respects and protects the human rights of people
 This website documents the co-design and development process of the Accessibility in Action project, and is maintained
 by the [Inclusive Design Research Centre](https://idrc.ocadu.ca/). You can:
 
-[Learn more **about the project** &rarr;](https://irisinstitute.ca/priority_area/accessible-inclusive-supports-services/)
+[Learn more **about the project**](https://irisinstitute.ca/priority_area/accessible-inclusive-supports-services/)
 
-[Explore **updates from the co-design and development team** &rarr;](/updates/)
+[Explore **updates from the co-design and development team**](/updates/)
 
-[Discover **upcoming co-design sessions** &rarr;](/events/)
+[Discover **upcoming co-design sessions**](/events/)
 
-[Browse **project resources for co-designers** &rarr;](/resources/)
+[Browse **project resources for co-designers**](/resources/)
