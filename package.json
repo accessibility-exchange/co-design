@@ -35,7 +35,7 @@
         "@11ty/eleventy-navigation": "0.1.6",
         "@11ty/eleventy-plugin-rss": "1.1.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",
-        "eleventy-plugin-fluid": "0.1.0",
+        "eleventy-plugin-fluid": "0.2.0",
         "luxon": "1.25.0"
     },
     "devDependencies": {
@@ -47,6 +47,7 @@
         "html-minifier": "4.0.0",
         "husky": "4.3.8",
         "image-size": "0.9.3",
+        "infusion": "3.0.0-dev.20210120T204128Z.6e4be079f.FLUID-6580",
         "jsdom": "16.4.0",
         "laravel-mix": "6.0.11",
         "move-file": "2.0.0",

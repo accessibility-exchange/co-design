@@ -42,6 +42,8 @@
 :root {
     --ll-font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
     --ll-border-radius: 0;
+    --ll-text-color: var(--fl-fgColor, black);
+    --ll-background-color: var(--fl-bgColor, white);
 }
 
 body {
@@ -76,9 +78,15 @@ body {
     margin-top: var(--step-3);
 }
 
+.fl-prefsEditor-separatedPanel {
+    --ll-background-color: var(--fl-bgColor, black);
+
+    background-color: var(--ll-background-color);
+}
+
 [role="banner"] {
-    --ll-background-color: black;
-    --ll-text-color: white;
+    --ll-background-color: var(--fl-bgColor, black);
+    --ll-text-color: var(--fl-fgColor, white);
 
     background-color: var(--ll-background-color);
 
@@ -92,8 +100,8 @@ main {
 }
 
 [role="contentinfo"] {
-    --ll-background-color: black;
-    --ll-text-color: white;
+    --ll-background-color: var(--fl-bgColor, black);
+    --ll-text-color: var(--fl-fgColor, white);
 
     background-color: var(--ll-background-color);
     color: var(--ll-text-color);
@@ -125,13 +133,13 @@ nav a {
     width: calc(100% + 2 * var(--step-0));
 }
 
-nav a[aria-current="page"] {
+[class*="fl-theme"] nav a[aria-current="page"] {
     background: var(--ll-text-color);
     box-shadow: 0 0 0 0.25rem var(--ll-text-color);
     color: var(--ll-background-color);
 
     &:focus {
-        background: var(--ll-accent-color);
+        background: var(--fl-linkColor, var(--fl-fgColor, var(--ll-accent-color)));
         box-shadow: var(--ll-link-focus-box-shadow);
     }
 }
