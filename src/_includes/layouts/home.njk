@@ -5,3 +5,17 @@
 {% block headerScripts %}
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 {% endblock %}
+
+{% block content %}
+        <div class="content flow">
+                {{ content | safe }}
+                <p><a href="https://irisinstitute.ca/priority_area/accessible-inclusive-supports-services/">Learn more <strong>about the project</strong></a></p>
+                {% if collections.updates.all | length %}
+                <p><a href="/updates/">Explore <strong>updates from the co-design and development team</strong></a></p>
+                {% endif %}
+                {% if collections.events.all | length %}
+                <p><a href="/events/">Discover <strong>upcoming co-design sessions</strong></a></p>
+                {% endif %}
+                <p><a href="/resources/">Browse <strong>project resources for co-designers</strong></a></p>
+        </div>
+{% endblock %}

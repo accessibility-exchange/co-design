@@ -13,12 +13,4 @@ facilitate effective engagement of people with disabilities and federally-regula
 and inclusive Canada that fully respects and protects the human rights of people with disabilities.
 
 This website documents the co-design and development process of the Accessibility in Action project, and is maintained
-by the [Inclusive Design Research Centre](https://idrc.ocadu.ca/). You can:
-
-[Learn more **about the project**](https://irisinstitute.ca/priority_area/accessible-inclusive-supports-services/)
-
-[Explore **updates from the co-design and development team**](/updates/)
-
-[Discover **upcoming co-design sessions**](/events/)
-
-[Browse **project resources for co-designers**](/resources/)
+by the [Inclusive Design Research Centre](https://idrc.ocadu.ca/).
