@@ -9,4 +9,5 @@ pagination:
   size: 10
   alias: sessions
 layout: layouts/sessions
+breadcrumbs: true
 ---
