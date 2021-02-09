@@ -1,6 +1,7 @@
 ---
 title: Co-designing Accessibility in Action
 layout: layouts/home
+breadcrumbs: false
 permalink: /
 eleventyNavigation:
     key: Home

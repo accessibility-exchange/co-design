@@ -9,5 +9,6 @@ pagination:
   data: collections.updates
   size: 10
   alias: updates
+breadcrumbs: true
 ---
 Coming soon!

@@ -1,4 +1,5 @@
 {
     "layout": "layouts/page.njk",
-    "permalink": "/{{ title | slug }}/"
+    "permalink": "/{{ title | slug }}/",
+    "breadcrumbs": true
 }
