@@ -49,5 +49,10 @@ contact the co-design and development team using the contact form below.
         <textarea id="message" name="message" rows="12" required>
         </textarea>
     </div>
+    <div class="field">
+        <label for="how">How did you find out about the project?</label>
+        <textarea id="how" name="how" rows="12">
+        </textarea>
+    </div>
     <button type="submit">Send Message</button>
 </form>
