@@ -1,8 +1,8 @@
-# Trivet
+# Co-designing Accessibility in Action
 
-## A simple starter kit for Eleventy-based static sites for the Fluid Project
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2243a388-75fe-4231-ae87-2fff58464956/deploy-status)](https://app.netlify.com/sites/accessibility-in-action/deploys)
 
-This repository contains the files needed to build [Eleventy](http://11ty.dev/)-based static sites for the [Fluid Project](https://fluidproject.org).
+This repository contains the source files for [Co-designing Accessibility in Action](https://accessibility-in-action.inclusivedesign.ca/).
 
 ## Usage
 
@@ -19,8 +19,8 @@ You can build and serve the website from a [Docker](https://docs.docker.com/get-
 
 Once you have Docker installed, run the following commands to build a Docker image and start a container:
 
-* Build the image: `docker build -t trivet .`
-* Run the container: `docker run --name trivet -p 8000:80 trivet`
+* Build the image: `docker build -t co-design .`
+* Run the container: `docker run --name co-design -p 8000:80 co-design`
 
 The website will be available at [http://localhost:8000](http://localhost:8000)
 
@@ -48,7 +48,7 @@ and  files in `dist` are overwritten at build time.
 
 ## License
 
-Trivet is available under the [New BSD License](https://raw.githubusercontent.com/fluid-project/trivet/master/LICENSE.md).
+This website's source code is available under the [New BSD License](https://raw.githubusercontent.com/fluid-project/trivet/master/LICENSE.md).
 
 ## Third Party Software in Trivet
 
