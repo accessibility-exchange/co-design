@@ -9,7 +9,10 @@ eleventyNavigation:
 If you'd like to participate in co-design sessions or learn more about the co-design and development process, you can
 contact the co-design and development team using the contact form below.
 
-<form id="contact" method="POST" action="/message-sent/" data-netlify="true">
+<form id="contact" method="POST" action="/message-sent/" netlify-honeypot="bot-field" data-netlify="true">
+    <div class="field hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+    </div>
     <div class="field">
         <label for="name">Full Name (required)</label>
         <input type="text" id="name" name="name" required>
