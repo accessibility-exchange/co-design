@@ -35,7 +35,7 @@
         "@11ty/eleventy-navigation": "0.1.6",
         "@11ty/eleventy-plugin-rss": "1.1.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",
-        "@accessibility-in-action/looseleaf": "1.0.0-alpha.6",
+        "@accessibility-in-action/looseleaf": "1.0.0",
         "eleventy-plugin-fluid": "0.1.0",
         "luxon": "1.25.0",
         "modern-css-reset": "1.4.0"
