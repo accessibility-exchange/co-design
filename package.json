@@ -37,7 +37,7 @@
         "@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",
         "@accessibility-in-action/looseleaf": "1.0.0",
         "eleventy-plugin-fluid": "0.1.0",
-        "luxon": "1.25.0",
+        "luxon": "1.26.0",
         "modern-css-reset": "1.4.0"
     },
     "devDependencies": {
