@@ -1,5 +1,5 @@
-@import "~modern-css-reset";
-@import "~@accessibility-in-action/looseleaf";
+@import "modern-css-reset";
+@import "@accessibility-in-action/looseleaf";
 
 @font-face {
     font-display: optional;
@@ -66,7 +66,7 @@ body {
 #skip-to-content:focus {
     clip: auto;
     clip-path: none;
-    color: white;
+    color: var(--ll-text-color);
     height: auto;
     left: var(--step--1);
     overflow: auto;
@@ -75,6 +75,8 @@ body {
 }
 
 .brand {
+    font-size: var(--step-2);
+    font-weight: 700;
     margin-top: var(--step-3);
 }
 
@@ -100,15 +102,16 @@ main {
     padding: var(--step-2) 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    [role="banner"],
-    [role="contentinfo"] {
-        --ll-background-color: #111;
-    }
-}
-
 .hidden {
     display: none;
+}
+
+footer .wrapper * {
+    font-size: var(--step--1);
+}
+
+nav {
+    margin-top: 1em;
 }
 
 nav ul {
@@ -116,6 +119,14 @@ nav ul {
     flex-direction: column;
     margin-bottom: 0;
     padding-left: 0;
+}
+
+nav ul > li {
+    padding-left: 0;
+}
+
+nav ul > li::before {
+    display: none;
 }
 
 nav li + li {
@@ -195,5 +206,20 @@ nav.pagination ul li + li {
         margin-left: 0;
         padding: 0;
         width: auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --ll-theme-border-color: #fff;
+        --ll-theme-text-color: #fff;
+        --ll-theme-accent-color: hsl(405, 73%, 57%);
+        --ll-theme-background-color: #000;
+        --ll-theme-select-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+    }
+
+    [role="banner"],
+    [role="contentinfo"] {
+        --ll-background-color: #111;
     }
 }
