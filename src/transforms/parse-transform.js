@@ -11,16 +11,11 @@ https://github.com/fluid-project/trivet/raw/main/LICENSE.md.
 */
 
 "use strict";
-const jsdom = require("jsdom");
-const {JSDOM} = jsdom;
+const {parseHTML} = require("linkedom");
 
 module.exports = function (value, outputPath) {
-    if (outputPath && outputPath.indexOf(".html") > -1) {
-        const DOM = new JSDOM(value, {
-            resources: "usable"
-        });
-
-        const document = DOM.window.document;
+    if (outputPath && outputPath.includes(".html")) {
+        let {document} = parseHTML(value);
         const images = [...document.querySelectorAll("main img")];
         const links = [...document.querySelectorAll("main a")];
 
