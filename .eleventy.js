@@ -59,7 +59,9 @@ module.exports = function (config) {
     // Sessions
     config.addCollection("sessions", collection => {
         return [
-            ...collection.getFilteredByGlob("./src/sessions/*.md")
+            ...collection.getFilteredByGlob("./src/sessions/*.md").sort(function (a, b) {
+                return a.data.start - b.data.start;
+            })
         ];
     });
 

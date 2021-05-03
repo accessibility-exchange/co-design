@@ -2,6 +2,7 @@
 backend:
   name: git-gateway
   branch: main
+local_backend: true
 publish_mode: editorial_workflow
 site_url: "https://accessibility-in-action.inclusivedesign.ca"
 media_folder: "src/assets/media"
@@ -47,6 +48,7 @@ collections:
     folder: "src/sessions"
     slug: "{{slug}}"
     preview_path: "/sessions/{{slug}}/"
+    sortable_fields: [title, start]
     editor:
       preview: false
     create: true
