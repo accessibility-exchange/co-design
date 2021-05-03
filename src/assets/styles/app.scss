@@ -154,6 +154,20 @@ nav.pagination ul li + li {
     margin-left: var(--step--1);
 }
 
+details {
+    border: 0.1875rem dashed var(--ll-theme-border-color);
+    padding: 1em;
+}
+
+details > * + * {
+    margin-block-start: 1em;
+}
+
+summary {
+    font-size: var(--step-2);
+    font-weight: 700;
+}
+
 .p-author,
 .dt-published,
 .time,

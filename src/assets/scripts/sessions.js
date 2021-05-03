@@ -19,6 +19,12 @@ const times = [...document.querySelectorAll("time")];
 times.forEach(time => {
     const iso = DateTime.fromISO(time.getAttribute("datetime"));
 
+    if (time.className === "dt-end") {
+        if (iso.diffNow().toObject().milliseconds < 1) {
+            time.closest(".h-event").hidden = true;
+        }
+    }
+
     const t = time.querySelector(".time");
     if (t) {
         t.textContent = iso.toFormat("t ZZZZ");

@@ -1,10 +1,12 @@
 {% extends "layouts/base.njk" %}
 
 {% set bodyClass = "sessions" %}
+{% set sessions = collections.sessions %}
 
 {% block content %}
+{{ content | safe }}
 {% if sessions.length %}
-    <div class="flow">
+    <div id="sessions" class="flow">
     {% for item in sessions %}
         <article class="entry h-event">
             <h2 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
