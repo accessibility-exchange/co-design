@@ -23,7 +23,7 @@
                     {% block pageHeader %}
                     <header class="flow">
                         {% if breadcrumbs -%}
-                        <p class="breadcrumbs"><a href="/" rel="home">Home</a> <span class="sep">/</span> {{ title }}</p>
+                        {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
                         <h1>{{ title }}</h1>
                     </header>

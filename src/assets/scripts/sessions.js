@@ -12,18 +12,12 @@ https://github.com/fluid-project/trivet/raw/master/LICENSE.md.
 
 "use strict";
 
-const { DateTime } = require("luxon");
+/* const { DateTime } = require("luxon");
 
 const times = [...document.querySelectorAll("time")];
 
 times.forEach(time => {
     const iso = DateTime.fromISO(time.getAttribute("datetime"));
-
-    if (time.className === "dt-end") {
-        if (iso.diffNow().toObject().milliseconds < 1) {
-            time.closest(".h-event").hidden = true;
-        }
-    }
 
     const t = time.querySelector(".time");
     if (t) {
@@ -31,4 +25,4 @@ times.forEach(time => {
     } else {
         time.textContent = iso.toFormat("t ZZZZ");
     }
-});
+}); */

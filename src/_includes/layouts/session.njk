@@ -9,7 +9,7 @@
 
 {% block pageHeader %}
 <header class="flow">
-    <p class="breadcrumbs"><a href="/" rel="home">Home</a> <span class="sep">/</span> <a href="/sessions/">Sessions</a> <span class="sep">/</span> {{ title }}</p>
+    {% include "partials/components/breadcrumbs.njk" %}
     <h1 class="p-name">{{ title }}</h1>
     <p><time class="dt-start" datetime="{{ start | isoDate }}"><span class="date">{{ start | formatDate }}</span> from <span class="time">{{ start | formatTime }}</span></time> to <time class="dt-end" datetime="{{ end | isoDate }}">{{ end | formatTime }}</time></p>
 </header>
