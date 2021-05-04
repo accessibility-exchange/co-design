@@ -5,5 +5,8 @@
 {% block content %}
 <div class="content flow">
     {{ content | safe }}
+    {% if page.url === "/participate/" %}
+        {% include "partials/components/participate.njk" %}
+    {% endif %}
 </div>
 {% endblock %}

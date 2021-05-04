@@ -91,6 +91,10 @@ body {
     background-color: var(--ll-background-color);
 }
 
+.fl-prefsEditor-separatedPanel {
+    padding-bottom: 4px;
+}
+
 main {
     padding: var(--step-2) 0;
 }
@@ -120,26 +124,26 @@ nav {
     margin-top: 1em;
 }
 
-nav ul {
+.nav ul {
     display: flex;
     flex-direction: column;
     margin-bottom: 0;
     padding-left: 0;
 }
 
-nav ul > li {
+.nav ul > li {
     padding-left: 0;
 }
 
-nav ul > li::before {
+.nav ul > li::before {
     display: none;
 }
 
-nav li + li {
+.nav li + li {
     margin-top: var(--step--1);
 }
 
-nav a {
+.nav a {
     align-items: center;
     display: flex;
     height: var(--step-4);
@@ -148,30 +152,16 @@ nav a {
     width: calc(100% + 2 * var(--step-0));
 }
 
-nav.pagination {
+.pagination {
     margin-top: var(--step-4);
 }
 
-nav.pagination ul {
+.pagination ul {
     flex-direction: row;
 }
 
-nav.pagination ul li + li {
+.pagination ul li + li {
     margin-left: var(--step--1);
-}
-
-details {
-    border: 0.1875rem dashed var(--ll-theme-border-color);
-    padding: 1em;
-}
-
-details > * + * {
-    margin-block-start: 1em;
-}
-
-summary {
-    font-size: var(--step-2);
-    font-weight: 700;
 }
 
 .p-author,
@@ -210,17 +200,17 @@ summary {
         display: none;
     }
 
-    nav ul {
+    .nav ul {
         flex-direction: row;
         margin-bottom: 1.5rem;
     }
 
-    nav li + li {
+    .nav li + li {
         margin-left: var(--step--1);
         margin-top: 0;
     }
 
-    nav a {
+    .nav a {
         display: inline;
         height: auto;
         margin-left: 0;
@@ -234,7 +224,7 @@ summary {
     --ll-theme-text-color: var(--fl-fgColor);
     --ll-theme-accent-color: var(--fl-linkColor, var(--fl-fgColor));
     --ll-theme-background-color: var(--fl-bgColor);
-    --ll-link-focus-box-shadow: 0 0 0 0.25rem var(--ll-theme-accent-color);
+    --ll-link-focus-box-shadow: 0 0 0 0.125rem var(--ll-theme-background-color), 0 0 0 0.25rem var(--ll-theme-accent-color);
     --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-theme-background-color), 0 0 0 0.25rem var(--ll-theme-accent-color);
 }
 
