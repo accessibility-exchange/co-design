@@ -1,4 +1,4 @@
-node_modules
-dist
-src/_data/assets.json
 .nova
+dist
+node_modules
+src/_data/assets.json
