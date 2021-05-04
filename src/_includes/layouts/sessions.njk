@@ -1,13 +1,17 @@
 {% extends "layouts/base.njk" %}
 
 {% set bodyClass = "sessions" %}
+{% set upcomingSessions = collections.upcomingSessions %}
+{% set pastSessions = collections.pastSessions %}
 
 {% block content %}
-{% if sessions.length %}
-    <div class="flow">
-    {% for item in sessions %}
+{{ content | safe }}
+{% if upcomingSessions.length %}
+    <h2>Upcoming Sessions</h2>
+    <div id="upcoming-sessions" class="flow">
+    {% for item in upcomingSessions %}
         <article class="entry h-event">
-            <h2 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+            <h3 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
             <p class="metadata"><time class="dt-start" datetime="{{ item.data.start | isoDate }}"><span class="date">{{ item.data.start | formatDate }}</span> from <span class="time">{{ item.data.start | formatTime }}</span></time> to <time class="dt-end" datetime="{{ item.data.end | isoDate }}">{{ item.data.end | formatTime }}</time></p>
             {% if item.data.description %}
             <p class="p-summary">{{ item.data.description | safe }}</p>
@@ -15,9 +19,20 @@
         </article>
     {% endfor %}
     </div>
-    {% if pagination.pages.length > 1 %}
-    {% include "partials/components/pagination.njk" %}
-    {% endif %}
+{% endif %}
+{% if pastSessions.length %}
+    <h2>Past Sessions</h2>
+    <div id="past-sessions" class="flow">
+    {% for item in pastSessions %}
+        <article class="entry h-event">
+            <h3 class="p-name"><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+            <p class="metadata"><time class="dt-start" datetime="{{ item.data.start | isoDate }}"><span class="date">{{ item.data.start | formatDate }}</span> from <span class="time">{{ item.data.start | formatTime }}</span></time> to <time class="dt-end" datetime="{{ item.data.end | isoDate }}">{{ item.data.end | formatTime }}</time></p>
+            {% if item.data.description %}
+            <p class="p-summary">{{ item.data.description | safe }}</p>
+            {% endif %}
+        </article>
+    {% endfor %}
+    </div>
 {% endif %}
 {% endblock %}
 

@@ -49,7 +49,7 @@ module.exports = function (config) {
     // Custom collections
 
     // Updates
-    const liveUpdates = update => update.date <= now && !update.data.draft;
+    const liveUpdates = update => update.date <= now;
     config.addCollection("updates", collection => {
         return [
             ...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)
@@ -57,11 +57,26 @@ module.exports = function (config) {
     });
 
     // Sessions
-    config.addCollection("sessions", collection => {
+    const upcomingSessions = session => session.data.start >= now;
+    const pastSessions = session => session.data.end <= now;
+
+    config.addCollection("upcomingSessions", collection => {
         return [
-            ...collection.getFilteredByGlob("./src/sessions/*.md").sort(function (a, b) {
-                return a.data.start - b.data.start;
-            })
+            ...collection.getFilteredByGlob("./src/sessions/*.md")
+                .filter(upcomingSessions)
+                .sort(function (a, b) {
+                    return a.data.start - b.data.start;
+                })
+        ];
+    });
+
+    config.addCollection("pastSessions", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/sessions/*.md")
+                .filter(pastSessions)
+                .sort(function (a, b) {
+                    return a.data.start - b.data.start;
+                })
         ];
     });
 

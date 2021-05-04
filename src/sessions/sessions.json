@@ -1,4 +1,5 @@
 {
-    "layout": "layouts/session.njk",
+    "layout": "layouts/session",
+    "breadcrumbs": true,
     "permalink": "/sessions/{{ start | date: '%Y/%m/%d' }}/{{ title | slug }}/"
 }

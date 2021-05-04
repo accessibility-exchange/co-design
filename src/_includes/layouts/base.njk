@@ -7,7 +7,6 @@
         <link rel="manifest" href="/manifest.webmanifest">
         <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
         {% include "partials/global/icons.njk" %}
-        {# <script type="text/javascript" src="{{ '/' | url }}lib/infusion/infusion-uio.min.js"></script> #}
         {% include "partials/global/scripts.njk" %}
         {% block headerScripts %}
         {% endblock %}
@@ -15,15 +14,15 @@
     </head>
     <body class="{{ bodyClass if bodyClass else "page" }}">
         <a id="skip-to-content" href="#main">Skip to content</a>
-        {# {% uioTemplate %} #}
+        {% uioTemplate %}
         {% include "partials/global/header.njk" %}
-        <main id="main">
+        <main id="main" tabindex="-1">
             <div class="wrapper flow">
                 <article class="flow{% if articleClass %} {{ articleClass }}{% endif %}">
                     {% block pageHeader %}
                     <header class="flow">
                         {% if breadcrumbs -%}
-                        <p class="breadcrumbs"><a href="/" rel="home">Home</a> <span class="sep">/</span> {{ title }}</p>
+                        {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
                         <h1>{{ title }}</h1>
                     </header>
@@ -38,6 +37,6 @@
             </div>
         </main>
         {% include "partials/global/footer.njk" %}
-        {# {% uioInit %} #}
+        {% uioInit %}
     </body>
 </html>

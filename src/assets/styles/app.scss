@@ -94,6 +94,11 @@ main {
     padding: var(--step-2) 0;
 }
 
+main:focus {
+    border: var(--ll-border-thin);
+    outline: none;
+}
+
 [role="contentinfo"] {
     --ll-background-color: #eee;
 
@@ -154,6 +159,20 @@ nav.pagination ul li + li {
     margin-left: var(--step--1);
 }
 
+details {
+    border: 0.1875rem dashed var(--ll-theme-border-color);
+    padding: 1em;
+}
+
+details > * + * {
+    margin-block-start: 1em;
+}
+
+summary {
+    font-size: var(--step-2);
+    font-weight: 700;
+}
+
 .p-author,
 .dt-published,
 .time,
@@ -209,17 +228,26 @@ nav.pagination ul li + li {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --ll-theme-border-color: #fff;
-        --ll-theme-text-color: #fff;
-        --ll-theme-accent-color: hsl(405, 73%, 57%);
-        --ll-theme-background-color: #000;
-        --ll-theme-select-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
-    }
+[class*=fl-theme]:not(.fl-theme-prefsEditor-default) {
+    --ll-theme-border-color: var(--fl-fgColor);
+    --ll-theme-text-color: var(--fl-fgColor);
+    --ll-theme-accent-color: var(--fl-linkColor, var(--fl-fgColor));
+    --ll-theme-background-color: var(--fl-bgColor);
+    --ll-link-focus-box-shadow: 0 0 0 0.25rem var(--ll-theme-accent-color);
+    --ll-input-focus-box-shadow: 0 0 0 0.125rem var(--ll-theme-background-color), 0 0 0 0.25rem var(--ll-theme-accent-color);
+}
 
-    [role="banner"],
-    [role="contentinfo"] {
-        --ll-background-color: #111;
-    }
+.fl-theme-bw,
+.fl-theme-by,
+.fl-theme-bbr {
+    --ll-theme-select-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+}
+
+.fl-theme-yb {
+    --ll-theme-select-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="yellow" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+}
+
+.fl-theme-gw,
+.fl-theme-gd {
+    --ll-theme-select-icon: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="silver" viewBox="0 0 16 16"><path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
 }
