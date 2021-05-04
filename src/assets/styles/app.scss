@@ -96,7 +96,7 @@ main {
 }
 
 main:focus {
-    border: var(--ll-border-thin);
+    box-shadow: 0 0 0 0.25rem var(--ll-theme-accent-color) inset;
     outline: none;
 }
 
