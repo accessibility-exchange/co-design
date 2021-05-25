@@ -104,6 +104,11 @@ main:focus {
     outline: none;
 }
 
+ol > li,
+ul > li {
+    padding-inline-start: var(--step-2);
+}
+
 [role="contentinfo"] {
     --ll-background-color: #eee;
 

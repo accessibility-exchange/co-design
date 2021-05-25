@@ -42,6 +42,19 @@ collections:
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: steps
+    label: Steps
+    label_singular: Step
+    folder: "src/steps"
+    slug: "{{slug}}"
+    preview_path: "/process-map/{{slug}}/"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: sessions
     label: Sessions
     label_singular: Session
