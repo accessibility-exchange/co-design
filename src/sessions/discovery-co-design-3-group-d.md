@@ -1,5 +1,5 @@
 ---
-title: Discovery Co-design 3 – Group D
+title: Discovery Co-design 2 – Group D
 start: 2021-06-03T17:00:00.000Z
 end: 2021-06-03T19:00:00.000Z
 ---
