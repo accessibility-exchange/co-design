@@ -1,8 +1,8 @@
 ---
 title: Consulting team and organization connect
-step: 6
-phase: Preparing together
 subtitle: Organizations and consultants define how they want to work together.
+phase: Preparing together
+step: 6
 ---
 ## Ideas
 
@@ -13,11 +13,9 @@ subtitle: Organizations and consultants define how they want to work together.
   * How to best engage them
   * What makes them comfortable
   * What resources they need to be supported (ex. software licenses, note taking services,  support people, etc)
+  * What happens if the feedback is interrupted for unforeseen reasons
+
 * Organizations can also do some of this work beforehand by asking community groups and nonprofits
-
-### Work together to determine what happens if the feedback is interrupted for unforeseen reasons
-
-
 
 ### Provide detailed orientation of the project
 
