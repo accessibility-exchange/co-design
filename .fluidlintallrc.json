@@ -17,6 +17,7 @@
                 "./src/assets/**/*.woff2",
                 "./src/pages/*.md",
                 "./src/sessions/*.md",
+                "./src/steps/*.md",
                 "./src/updates/*.md"
             ]
         }
@@ -25,6 +26,7 @@
         "excludes": [
             "./src/pages/*.md",
             "./src/sessions/*.md",
+            "./src/steps/*.md",
             "./src/updates/*.md",
             "./CHANGELOG.md"
         ]
