@@ -1,9 +1,9 @@
 ---
 title: Outreach for consultants
-step: 1
-phase: Recruitment
 subtitle: Reaching out to community members and setting them up to be on the
   path to be a consultant
+phase: Recruitment
+step: 1
 ---
 ## Ideas
 
@@ -16,20 +16,6 @@ subtitle: Reaching out to community members and setting them up to be on the
 * Community newsletters
 * Campaigns
 
-### Find qualified outreach team members
-
-* Have deep knowledge of cross-disability and intersectionality to make sure there is equitable representation on the website
-* Use data gathering to find out which communities are still under-represented
-* Be embedded in a certain community, and has a sense of what people have to offer even if the individual may not think so
-* Reach out to the marginalized groups within marginalized groups (ex. queer seniors, two spirit people, asexual people)
-* Have an understanding that not everyone has the same resources, or methods of connecting
-
-### Address internalized attitudes about consulting
-
-* Some communities have internalized beliefs about who consultants are
-* Break down what a “consultant” is and does
-* Be aware to not use language that creates these internalized barriers
-
 ### Reach out through community groups and organizations
 
 * Nonprofits
@@ -40,6 +26,14 @@ subtitle: Reaching out to community members and setting them up to be on the
 * Advocacy groups
 * Whatever people are already connected to
 
+### Find qualified outreach team members
+
+* Have deep knowledge of cross-disability and intersectionality to make sure there is equitable representation on the website
+* Use data gathering to find out which communities are still under-represented
+* Be embedded in a certain community, and has a sense of what people have to offer even if the individual may not think so
+* Reach out to the marginalized groups within marginalized groups (ex. queer seniors, two spirit people, asexual people)
+* Have an understanding that not everyone has the same resources, or methods of connecting
+
 ### Build a relationship
 
 * Having a presence in the community
@@ -47,6 +41,12 @@ subtitle: Reaching out to community members and setting them up to be on the
 * Letting community know this website and these consulting opportunities are available
 * Share how they can contribute
 * Answer any questions
+
+### Address internalized attitudes about consulting
+
+* Some communities have internalized beliefs about who consultants are
+* Break down what a “consultant” is and does
+* Be aware to not use language that creates these internalized barriers
 
 ### Build constituency groups
 
