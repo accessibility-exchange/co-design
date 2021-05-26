@@ -2,6 +2,7 @@
 title: Organizations prepare internally
 subtitle: Get ready to engage with Deaf people and people with disabilities.
 phase: Preparing organizations
+step: 6
 ---
 ## Ideas
 
