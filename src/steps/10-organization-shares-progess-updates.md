@@ -1,5 +1,6 @@
 ---
-title: 10. Organization shares progress updates
+title: Organization shares progress updates
+step: 10
 subtitle: Organizations report on the actions they have taken to implement the feedback.
 ---
 ## Ideas

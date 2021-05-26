@@ -1,5 +1,7 @@
 ---
-title: 7. Consulting team provides feedback
+title: Consulting team provides feedback
+step: 7
+phase: Consultation
 subtitle: Consulting team and organization work together on their accessibility plan.
 ---
 ## Ideas

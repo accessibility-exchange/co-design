@@ -1,5 +1,7 @@
 ---
-title: 2. Sampling and registration
+title: Sampling and registration
+step: 2
+phase: Recruitment
 subtitle: Potential consultants get a walkthrough of the website, learn what
   this is all about, and are supported in registering
 ---

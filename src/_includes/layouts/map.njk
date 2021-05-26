@@ -7,9 +7,17 @@
     {{ content | safe }}
     {% set steps = collections.steps %}
     <h2>Steps</h2>
+    <ol>
     {% for step in steps %}
+    <li>
+    {% if step.url %}
     <h3><a href="{{ step.url }}">{{ step.data.title }}</a></h3>
+    {% else %}
+    <h3>{{ step.data.title }}</h3>
+    {% endif %}
     <p>{{ step.data.subtitle }}</p>
+    </li>
     {% endfor %}
+    </ol>
 </div>
 {% endblock %}

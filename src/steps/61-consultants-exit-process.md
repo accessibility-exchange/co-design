@@ -1,5 +1,7 @@
 ---
-title: 6.1 Consultants exit process
+title: Consultants exit process
+step: 6.1
+phase: Preparing for consultation
 subtitle: If a consultant and organization realize they are not a good fit, the
   consultant exits the process.
 ---

@@ -1,5 +1,7 @@
 ---
-title: 7.2 Representative consultants report back to their constituency group
+title: Representative consultants report back to their constituency group
+step: 7.2
+phase: Consultation
 subtitle: Representatives are accountable to their constituency group; they go
   back and update them on the progress
 ---

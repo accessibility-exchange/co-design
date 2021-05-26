@@ -1,12 +1,14 @@
 ---
-title: 6. Consulting team and organization connect
+title: Consulting team and organization connect
+step: 6
+phase: Preparing for consultation
 subtitle: Organizations and consultants define how they want to work together.
 ---
 ## Ideas
 
 ### Design the consultation together - how can organizations effectively enable the participation of consultants
 
-* Organization has a conversation with the consultants about: 
+* Organization has a conversation with the consultants about:
 
   * How to best engage them
   * What makes them comfortable
@@ -24,7 +26,7 @@ subtitle: Organizations and consultants define how they want to work together.
   * The terms of participation
   * Timeframe
   * Goals
-  * Responsibilities 
+  * Responsibilities
   * Other collaborators on the project
   * How their feedback will be acted upon
 

@@ -1,5 +1,7 @@
 ---
-title: 1. Outreach for consultants
+title: Outreach for consultants
+step: 1
+phase: Recruitment
 subtitle: Reaching out to community members and setting them up to be on the
   path to be a consultant
 ---
@@ -35,8 +37,8 @@ subtitle: Reaching out to community members and setting them up to be on the
 * Community health centres
 * Independent living centres
 * Mental health orgs
-* Advocacy groups 
-* Whatever people are already connected to 
+* Advocacy groups
+* Whatever people are already connected to
 
 ### Build a relationship
 

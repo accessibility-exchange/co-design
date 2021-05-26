@@ -1,5 +1,7 @@
 ---
-title: 7.1 Consultants exit process
+title: Consultants exit process
+step: 7.1
+phase: Consultation
 subtitle: If a consultant and organization realizes they are not a good fit, the
   consultant exits the process
 ---

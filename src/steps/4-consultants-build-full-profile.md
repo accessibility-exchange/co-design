@@ -1,5 +1,7 @@
 ---
-title: 4. Consultants build full profile
+title: Consultants build full profile
+step: 4
+phase: Preparing for consultation
 subtitle: Support individual consultants and representatives to build a full
   profile about themselves
 ---
@@ -14,7 +16,7 @@ subtitle: Support individual consultants and representatives to build a full
 
 ### Specify if they’re representing a group
 
-* Which group they represent 
+* Which group they represent
 * Who makes up their constituency
 
 ### Include accessibility information

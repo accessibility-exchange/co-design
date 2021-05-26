@@ -1,5 +1,7 @@
 ---
-title: 5. Match organization with a team of consultants
+title: Match organization with a team of consultants
+step: 5
+phase: Preparing for consultation
 subtitle: Pre-screening and matching the right group of people to an
   organization. Obtaining documentation from support people.
 ---
@@ -9,7 +11,7 @@ subtitle: Pre-screening and matching the right group of people to an
 
 * Need to ensure a diversity of perspectives that are:
 
-  * Cross-disability 
+  * Cross-disability
   * Intersectional
   * Cross-Canada
   * Both rural and urban representation
@@ -35,7 +37,7 @@ subtitle: Pre-screening and matching the right group of people to an
 
   * An organization’s needs
   * Where an organization is at on their acessibility plan journey
-  * Organization’s disability awareness and how much education they still need 
+  * Organization’s disability awareness and how much education they still need
 * This person can help make sure projects are distributed equitably, not just going to those who appear more “qualified” than others
 * This needs to be someone human, not an algorithm
 
