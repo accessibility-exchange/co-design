@@ -1,9 +1,9 @@
 ---
 title: Consultants build full profile
-step: 5
-phase: Preparing consultants
 subtitle: Support individual consultants and representatives to build a full
   profile about themselves
+phase: Preparing consultants
+step: 5
 ---
 ## Ideas
 
@@ -14,11 +14,6 @@ subtitle: Support individual consultants and representatives to build a full
 * Recent consultation work (including volunteer work)
 * Areas of interest
 
-### Specify if they’re representing a group
-
-* Which group they represent
-* Who makes up their constituency
-
 ### Include accessibility information
 
 * Pace of working
@@ -27,6 +22,11 @@ subtitle: Support individual consultants and representatives to build a full
 * Their support person
 * How they’d like to be compensated
 * Any representative they trust to represent them
+
+### Specify if they’re representing a group
+
+* Which group they represent
+* Who makes up their constituency
 
 ### Facilitate profiles in multiple formats
 
