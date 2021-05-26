@@ -1,14 +1,14 @@
 ---
 title: 10. Organization shares progress updates
+subtitle: Organizations report on the actions they have taken to implement the feedback.
 ---
 ## Ideas
 
-### Subsection
+### Include consultants in implementation
 
-* Item
+* Involve them or hire them to  help implement changes from within
 
-## Design Prompts
+### Data tracking
 
-### Subsection
-
-* Item
+* How much of the feedback the organization has taken and implemented
+  Have a way of tracking how much impact we are having
