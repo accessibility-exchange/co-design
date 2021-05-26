@@ -1,9 +1,9 @@
 ---
-title: Consultants exit process
-phase: Preparing together
-step: 6.1
+title: Consultant choses to not proceed
 subtitle: Consultants determine whether they’re a good fit for the project after
   learning about it from the organization
+phase: Preparing together
+step: 6.1
 ---
 ## Ideas
 
