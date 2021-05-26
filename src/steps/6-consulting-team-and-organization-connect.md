@@ -1,6 +1,8 @@
 ---
-title: 6. Consulting team and organization connect
-subtitle: Organizations and consultants define how they want to work together.
+title: Consulting team and organization connect
+subtitle: Consultants determine whether they’re a good fit for the project after
+  learning about it from the organization.
+phase: Preparing for consultation
 ---
 ## Ideas
 
