@@ -221,11 +221,25 @@ ol.process {
         margin-top: 1rem;
     }
 
+    > li {
+        font-size: var(--step-1);
+        font-weight: 600;
+        padding-inline-start: 0;
+    }
+
     > li::before {
-        content: counter(list-item, upper-alpha) ".";
+        content: "Phase " counter(list-item, upper-alpha) ":\A0";
+        display: inline-block;
+        position: relative;
+    }
+
+    > li + li {
+        margin-top: 3rem;
     }
 
     ol {
+        font-size: var(--step-0);
+
         > li {
             padding-inline-start: var(--step-2);
         }
@@ -252,6 +266,7 @@ ol.process {
     .subtitle {
         font-size: var(--step--1);
         font-style: italic;
+        font-weight: normal;
     }
 }
 

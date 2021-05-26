@@ -1,7 +1,7 @@
 ---
 title: Match organization with a team of consultants
 step: 5
-phase: Preparing for consultation
+phase: Preparing together
 subtitle: Pre-screening and matching the right group of people to an
   organization. Obtaining documentation from support people.
 ---

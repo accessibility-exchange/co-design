@@ -1,7 +1,7 @@
 ---
 title: Preparing individual consultants
-step: 3.1
-phase: Preparing for consultation
+step: 3
+phase: Preparing consultants
 subtitle: Support individual consultants in articulating their skills
 ---
 ## Ideas

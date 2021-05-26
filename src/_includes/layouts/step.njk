@@ -11,8 +11,8 @@
     {% if nextStep.url === false %}
     {% set nextStep = collections.steps | getNextCollectionItem(nextStep) %}
     {% endif %}
-    {% if previousStep %}<p>Previous step: <a href="{{ previousStep.url }}">{{ previousStep.data.title }}</a></p>{% endif %}
     {{ content | safe }}
+    {% if previousStep %}<p>Previous step: <a href="{{ previousStep.url }}">{{ previousStep.data.title }}</a></p>{% endif %}
     {% if nextStep %}<p>Next step: <a href="{{ nextStep.url }}">{{ nextStep.data.title }}</a></p>{% endif %}
 </div>
 {% endblock %}

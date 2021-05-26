@@ -1,7 +1,7 @@
 ---
 title: Consulting team and organization connect
 step: 6
-phase: Preparing for consultation
+phase: Preparing together
 subtitle: Organizations and consultants define how they want to work together.
 ---
 ## Ideas

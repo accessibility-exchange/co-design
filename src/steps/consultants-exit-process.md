@@ -1,6 +1,6 @@
 ---
 title: Consultants exit process
-phase: Preparing for consultation
+phase: Preparing together
 step: 6.1
 subtitle: Consultants determine whether they’re a good fit for the project after
   learning about it from the organization

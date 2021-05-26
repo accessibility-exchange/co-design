@@ -1,7 +1,7 @@
 ---
 title: Consultants build full profile
-step: 4
-phase: Preparing for consultation
+step: 5
+phase: Preparing consultants
 subtitle: Support individual consultants and representatives to build a full
   profile about themselves
 ---
