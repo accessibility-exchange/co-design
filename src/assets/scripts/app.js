@@ -11,5 +11,3 @@ https://github.com/fluid-project/trivet/raw/master/LICENSE.md.
 */
 
 "use strict";
-
-// If your website needs custom JavaScript, put it here.
