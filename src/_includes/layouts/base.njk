@@ -24,7 +24,7 @@
                         {% if breadcrumbs -%}
                         {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
-                        <h1>{{ title }}</h1>
+                        <h1>{{ fullTitle if fullTitle else title }}</h1>
                         {% if phase %}
                         <p class="phase">Phase: <span class="badge">{{ phase }}</span></p>
                         {% endif %}

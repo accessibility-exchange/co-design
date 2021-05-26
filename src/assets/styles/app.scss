@@ -170,7 +170,10 @@ nav {
 }
 
 .pagination ul {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .pagination ul li + li {
@@ -205,6 +208,17 @@ nav {
         mask-repeat: no-repeat;
         vertical-align: text-bottom;
         width: 1.5rem;
+    }
+}
+
+ul[role="list"],
+ol[role="list"] {
+    > li {
+        padding-inline-start: 0;
+    }
+
+    > li::before {
+        display: none;
     }
 }
 
@@ -268,6 +282,12 @@ ol.process {
         font-style: italic;
         font-weight: normal;
     }
+}
+
+summary,
+.summary {
+    font-size: var(--step-1);
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {

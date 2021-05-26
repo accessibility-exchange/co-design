@@ -37,8 +37,8 @@
                     <a href="{{ step.url }}">{{ step.data.title }}</a>
                     {% else %}
                     {{ step.data.title }}
-                    </p>
                     {% endif %}
+                    </p>
                     <p class="subtitle">{{ step.data.subtitle }}</p>
                     {% set lastStepLevel = currentStepLevel %}
                 {% if loop.last %}
