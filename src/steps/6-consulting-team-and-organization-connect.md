@@ -1,6 +1,7 @@
 ---
-title: 6. Consulting team and organization connect
+title: Consulting team and organization connect
 subtitle: Organizations and consultants define how they want to work together.
+phase: Preparing for consultation
 ---
 ## Ideas
 
