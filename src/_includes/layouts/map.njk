@@ -5,19 +5,55 @@
 {% block content %}
 <div class="content flow">
     {{ content | safe }}
-    {% set steps = collections.steps %}
     <h2>Steps</h2>
-    <ol>
-    {% for step in steps %}
-    <li>
-    {% if step.url %}
-    <h3><a href="{{ step.url }}">{{ step.data.title }}</a></h3>
-    {% else %}
-    <h3>{{ step.data.title }}</h3>
-    {% endif %}
-    <p>{{ step.data.subtitle }}</p>
-    </li>
-    {% endfor %}
+    <ol class="process">
+        {% for phase in phases %}
+        <li>
+            {{ phase }}
+            <ol>
+            {% set steps = collections.steps | phaseFilter(phase) %}
+            {% set lastStepLevel = 1 %}
+            {% for step in steps %}
+                {% if "." in step.data.step | string %}
+                    {% set currentStepLevel = 2 %}
+                {% else %}
+                    {% set currentStepLevel = 1 %}
+                {% endif %}
+                {% if lastStepLevel !== currentStepLevel %}
+                    {% if currentStepLevel == 2 %}
+                        <ol>
+                    {% elif currentStepLevel == 1 %}
+                        </ol>
+                    </li>
+                    {% endif %}
+                {% else %}
+                    {% if loop.first !== true %}
+                    </li>
+                    {% endif %}
+                {% endif %}
+                <li data-number="{{ step.data.step }}">
+                    <p class="step">
+                    {% if step.url %}
+                    <a href="{{ step.url }}">{{ step.data.title }}</a>
+                    {% else %}
+                    {{ step.data.title }}
+                    </p>
+                    {% endif %}
+                    <p class="subtitle">{{ step.data.subtitle }}</p>
+                    {% set lastStepLevel = currentStepLevel %}
+                {% if loop.last %}
+                    {% if currentStepLevel == 2 %}
+                            </li>
+                        </ol>
+                    </li>
+                    {% else %}
+                    </li>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+            </ol>
+        </li>
+        {% endfor %}
     </ol>
 </div>
 {% endblock %}

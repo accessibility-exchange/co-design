@@ -5,7 +5,12 @@
 {% block content %}
 <div class="content flow">
     {% set previousStep = collections.steps | getPreviousCollectionItem(page) %}
-    {% set nextStep = collections.steps | getNextCollectionItem(page) %}
+    {% if previousStep.url === false %}
+    {% set previousStep = collections.steps | getPreviousCollectionItem(previousStep) %}
+    {% endif %}    {% set nextStep = collections.steps | getNextCollectionItem(page) %}
+    {% if nextStep.url === false %}
+    {% set nextStep = collections.steps | getNextCollectionItem(nextStep) %}
+    {% endif %}
     {% if previousStep %}<p>Previous step: <a href="{{ previousStep.url }}">{{ previousStep.data.title }}</a></p>{% endif %}
     {{ content | safe }}
     {% if nextStep %}<p>Next step: <a href="{{ nextStep.url }}">{{ nextStep.data.title }}</a></p>{% endif %}

@@ -1,6 +1,7 @@
 ---
 title: Organization shares completed accessibility plan
 step: 9
+phase: After consultation
 subtitle: Consultants have an opportunity to review and assess the completed
   accessibility plan.
 ---

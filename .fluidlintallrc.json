@@ -4,13 +4,16 @@
             "includes": ["./.eleventy.js"]
         },
         "json": {
-            "excludes": ["./src/_data/assets.json"]
+            "excludes": ["./src/_data/*.json"]
         }
     },
     "jsonlint": {
-        "excludes": ["./src/_data/assets.json"]
+        "excludes": ["./src/_data/*.json"]
     },
     "lintspaces": {
+        "jsonindentation": {
+            "excludes": ["./src/_data/*.json"]
+        },
         "newlines": {
             "excludes": [
                 "./src/assets/**/*.woff",

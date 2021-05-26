@@ -101,6 +101,14 @@ module.exports = function (config) {
     config.addPlugin(navigationPlugin);
     config.addPlugin(rssPlugin);
 
+    config.addFilter("phaseFilter", function (collection, phase) {
+        if (!phase) {
+            return collection;
+        }
+        const filtered = collection.filter(item => item.data.phase === phase);
+        return filtered;
+    });
+
     // 404
     config.setBrowserSyncConfig({
         callbacks: {

@@ -1,6 +1,7 @@
 ---
 title: Organization shares progress updates
 step: 10
+phase: After consultation
 subtitle: Organizations report on the actions they have taken to implement the feedback.
 ---
 ## Ideas

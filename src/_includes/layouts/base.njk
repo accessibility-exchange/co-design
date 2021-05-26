@@ -25,6 +25,9 @@
                         {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
                         <h1>{{ title }}</h1>
+                        {% if phase %}
+                        <p class="phase">Phase: <span class="badge">{{ phase }}</span></p>
+                        {% endif %}
                         {% if subtitle %}
                         <p class="subtitle">{{ subtitle }}</p>
                         {% endif %}

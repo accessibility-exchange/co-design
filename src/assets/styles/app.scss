@@ -104,11 +104,6 @@ main:focus {
     outline: none;
 }
 
-ol > li,
-ul > li {
-    padding-inline-start: var(--step-2);
-}
-
 [role="contentinfo"] {
     --ll-background-color: #eee;
 
@@ -157,6 +152,19 @@ nav {
     width: calc(100% + 2 * var(--step-0));
 }
 
+.badge {
+    background-color: var(--ll-text-color);
+    border-radius: calc(4 / 16 * 1rem);
+    color: var(--ll-background-color);
+    font-size: var(--step--1);
+    padding: calc(4 / 16 * 1rem);
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
 .pagination {
     margin-top: var(--step-4);
 }
@@ -197,6 +205,53 @@ nav {
         mask-repeat: no-repeat;
         vertical-align: text-bottom;
         width: 1.5rem;
+    }
+}
+
+ul,
+ol {
+    > li::before {
+        opacity: 1;
+    }
+}
+
+ol.process {
+    li,
+    ol {
+        margin-top: 1rem;
+    }
+
+    > li::before {
+        content: counter(list-item, upper-alpha) ".";
+    }
+
+    ol {
+        > li {
+            padding-inline-start: var(--step-2);
+        }
+
+        > li::before {
+            content: attr(data-number) ".";
+        }
+
+        ol {
+            > li {
+                padding-inline-start: var(--step-3);
+            }
+
+            > li::before {
+                content: attr(data-number) ".";
+            }
+        }
+    }
+
+    .step {
+        font-weight: 600;
+    }
+
+    .subtitle {
+        font-size: var(--step--1);
+        font-style: italic;
     }
 }
 
