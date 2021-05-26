@@ -1,14 +1,19 @@
 ---
-title: "2. Sampling and registration"
+title: 2. Sampling and registration
+subtitle: Potential consultants get a walkthrough of the website, learn what
+  this is all about, and are supported in registering
 ---
 ## Ideas
 
-### Subsection
+### Be transparent about what’s on the website
 
-* Item
+* What kinds of projects are on the website
+* Who are the other consultants
+* A list of key terms  that are not already in clear language
+* A list of roles and their expectations in clear language. For example:
 
-## Design Prompts
+  * who you are offering services to?
+  * who do you want to access the service from?
+  * who is available to support your participation?
 
-### Subsection
-
-* Item
+### An opportunity for consultants to ask questions about this process, and how the website works
