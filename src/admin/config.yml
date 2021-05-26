@@ -54,6 +54,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Phase", name: "phase", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: sessions
     label: Sessions

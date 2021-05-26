@@ -80,6 +80,15 @@ module.exports = function (config) {
         ];
     });
 
+    config.addCollection("steps", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/steps/*.md")
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
     // RSS Feed
     config.addCollection("updatesFeed", collection => {
         return [...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)]

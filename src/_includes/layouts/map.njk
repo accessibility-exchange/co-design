@@ -1,0 +1,15 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "page page--map" %}
+
+{% block content %}
+<div class="content flow">
+    {{ content | safe }}
+    {% set steps = collections.steps %}
+    <h2>Steps</h2>
+    {% for step in steps %}
+    <h3><a href="{{ step.url }}">{{ step.data.title }}</a></h3>
+    <p>{{ step.data.subtitle }}</p>
+    {% endfor %}
+</div>
+{% endblock %}
