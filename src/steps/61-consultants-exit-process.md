@@ -1,6 +1,6 @@
 ---
 title: 6.1 Consultants exit process
-subtitle: If a consultant and organization realizes they are not a good fit, the
+subtitle: If a consultant and organization realize they are not a good fit, the
   consultant exits the process.
 ---
 ## Ideas
