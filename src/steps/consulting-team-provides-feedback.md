@@ -1,8 +1,8 @@
 ---
 title: Consulting team provides feedback
-step: 7
-phase: Consultation
 subtitle: Consulting team and organization work together on their accessibility plan.
+phase: Consultation
+step: 7
 ---
 ## Ideas
 
@@ -11,19 +11,25 @@ subtitle: Consulting team and organization work together on their accessibility 
 * Options for time: Don’t require real-time feedback to avoid time pressures
 * Options for medium: people to respond in things like video, voice note
 
-### Organizations need to be flexible and transparent about their communication
+### Using stories to express experiences
 
-* Organizations need to communicate to consultants through their preferred medium
-* Organizations need to communicate the timeframe of when they’ll respond
+* People have already had experiences with organizations regarding their accessibility
+* Tell stories about those experiences to the relevant organizations, ex. the process of getting a passport
+
+### Have access supporters help consultants articulate their feedback
+
+* For non-verbal consultants
+* For consultants who encounter barriers in articulating their thought processes easily
+* For newcomers and people who don’t speak the language used
 
 ### Use community facilitation
 
 * Have facilitation come from someone that the consultants can relate to, or from their own community - this provides more authentic answers, and may help with consultants feeling pressured to say what they think organizations want to hear
 
-### Using stories to express experiences
+### Organizations need to be flexible and transparent about their communication
 
-* People have already had experiences with organizations regarding their accessibility
-* Tell stories about those experiences to the relevant organizations, ex. the process of getting a passport
+* Organizations need to communicate to consultants through their preferred medium
+* Organizations need to communicate the timeframe of when they’ll respond
 
 ### Organizations ask questions that meet the consultant where they’re at
 
@@ -31,12 +37,6 @@ subtitle: Consulting team and organization work together on their accessibility 
 * “What annoys you?”
 * “What makes you feel excluded when you walk into a business?”
 * “What are you looking for, what do you need?”
-
-### Have access supporters help consultants articulate their feedback
-
-* For non-verbal consultants
-* For consultants who encounter barriers in articulating their thought processes easily
-* For newcomers and people who don’t speak the language used
 
 ### Have checks and balances to make sure the process is equitable
 
