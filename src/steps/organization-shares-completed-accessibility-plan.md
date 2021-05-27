@@ -1,21 +1,27 @@
 ---
 title: Organization shares completed accessibility plan
-step: 9
-phase: After consultation
 subtitle: Consultants have an opportunity to review and assess the completed
   accessibility plan.
+phase: After consultation
+step: 9
 ---
 ## Ideas
 
 ### Create opportunity for follow-up
 
 * Consultants come back here to look through what’s been done and offer feedback
+* Consultants can appeal the results, challenge it, or reject it
 
 ### Organization updates consultants on follow up plan
 
 * Plan for how the organization will be implementing feedback
 * Plan for how the organization is accountable for implementing feedback
 * Provide transparency on any repercussions on not implementing feedback (ex. fines)
+
+### A way for all consultants to see the process that was taken and critique it
+
+* Agree or disagree with the processes
+* Point out gaps in perspectives
 
 ### Appreciate & celebrate consultants
 
