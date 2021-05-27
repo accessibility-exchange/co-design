@@ -10,11 +10,12 @@ step: 4
 
 * Have a concierge to meet the organizations where they’re at, and provide what is needed to support them in their learning
 
-### Organizations must go through some training about disability issues before engaging
+### Organizations must go through some training about disability issues and cultural differences before engaging
 
 * Review policies like the UN Convention of Persons with Disabilities, and other relevant policies (ex. anti audism policy)
 * Learn about the difficulties that Deaf people and people with disabilities face, and the advocacy that’s already been done
 * Be aware of any complaints the organization received  around accessibility - this can be done through storytelling about experiences with certain organizations
+* We can provide a basic resource on how to meet different access needs
 
 ### Evaluate their readiness for change
 
