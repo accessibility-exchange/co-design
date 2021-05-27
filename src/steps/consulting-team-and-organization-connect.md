@@ -12,10 +12,10 @@ step: 6
 
   * How to best engage them
   * What makes them comfortable
-  * What resources they need to be supported (ex. software licenses, note taking services,  support people, etc)
+  * What resources they need to be supported (ex. software licenses, note-taking services,  support people, etc)
   * What happens if the feedback is interrupted for unforeseen reasons
-
 * Organizations can also do some of this work beforehand by asking community groups and nonprofits
+* Have a process support person to make sure the consultation process is ethical and equitable 
 
 ### Provide detailed orientation of the project
 
