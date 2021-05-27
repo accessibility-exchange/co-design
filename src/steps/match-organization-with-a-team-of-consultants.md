@@ -32,6 +32,7 @@ step: 5
   * Organization’s disability awareness and how much education they still need
 * This person can help make sure projects are distributed equitably, not just going to those who appear more “qualified” than others
 * This needs to be someone human, not an algorithm
+* Can also help match younger consultants who want mentorship to experienced ones
 
 ### Consultants shouldn’t just be charities or self-appointed advocates who are not themselves Deaf or disabled
 
@@ -49,4 +50,4 @@ step: 5
 
 ### Data tracking
 
-* Use data tracking to make sure consultants have even distribution of opportunities
+* Use data tracking to make sure consultants have even distribution of opportunities - make sure we capture intersectional data about the consultants
