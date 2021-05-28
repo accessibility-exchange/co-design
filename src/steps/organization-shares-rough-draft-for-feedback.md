@@ -11,10 +11,10 @@ step: 12
 
 * Consultants come back here to look through what’s been done and offer feedback
 
-### Assessment criteria for quality of consultation
+### Assess the quality of consultation
 
+* This can be done by another group or panel with cross-disability perspective
 * Who was involved, and how many consultants
 * Is the feedback comprehensive enough
 * How much time was given for responses
 * Are there any perspectives missing?
-* This can be done by another group or panel with cross-disability perspective
