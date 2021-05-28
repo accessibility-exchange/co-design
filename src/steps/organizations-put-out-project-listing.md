@@ -3,7 +3,7 @@ title: Organizations put out project listing
 subtitle: Organizations create a project listing with the relevant information
   of interest to consultants.
 phase: Preparing organizations
-step: 6
+step: 8
 ---
 ## Ideas
 
