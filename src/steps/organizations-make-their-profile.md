@@ -3,7 +3,7 @@ title: Organizations make their profile
 subtitle: Organizations complete a profile with the relevant information of
   interest to consultants.
 phase: Preparing organizations
-step: 5
+step: 7
 ---
 ## Ideas
 
