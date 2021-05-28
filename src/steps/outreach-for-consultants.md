@@ -50,5 +50,6 @@ step: 1
 
 ### Build constituency groups
 
-* Build a community of people who would prefer for someone to advocate for them
-* Reach out to organizations to see whether they’d be willing to be the advocate
+* Build a community of people who would prefer for someone to represent them
+* This constituency group needs to be representative of the diversity of the larger community
+* Find people who are willing to be representatives of this group
