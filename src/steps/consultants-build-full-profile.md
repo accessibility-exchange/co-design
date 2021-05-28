@@ -33,6 +33,6 @@ step: 5
 * Which group they represent
 * Who makes up their constituency
 
-### Facilitate profiles in multiple formats
+### Facilitate profiles in multiple formats and languages
 
 * Allow people to use multiple formats to explain the type of work they do, ex. video, audio, ASL, LSQ, ISL
