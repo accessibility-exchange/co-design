@@ -1,9 +1,9 @@
 ---
 title: Organization shares rough draft for feedback
-step: 8
-phase: Consultation
 subtitle: Consultants have another chance to look through a rough draft of the
   Accessibility Plan, and make sure nothing is missing.
+phase: Consultation
+step: 12
 ---
 ## Ideas
 
