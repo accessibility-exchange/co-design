@@ -8,5 +8,3 @@ step: 11.1
 ## Ideas
 
 ### Update constituency group
-
-* This constituency group needs to be representative of the diversity of the larger community
