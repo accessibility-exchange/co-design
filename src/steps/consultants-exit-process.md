@@ -3,7 +3,7 @@ title: Consultant doesn’t see a good fit
 subtitle: Consultants determine whether they’re a good fit for the project after
   learning about it from the organization
 phase: Preparing together
-step: 6.1
+step: 10.1
 ---
 ## Ideas
 
