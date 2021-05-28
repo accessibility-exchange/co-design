@@ -25,7 +25,7 @@ step: 4
 
 ### Set clear expectations around collaboration
 
-* Organizations need to know what to expect in regards to resources they need to provide, and the timelines, working styles, and access needs of the community
+* Organizations need to know what to expect in regards to resources they need to provide, and the timelines, working styles, communication styles, and access needs of the community
 
 ### Setting clear expectations around outcomes
 
@@ -39,3 +39,6 @@ step: 4
 
 * Organizations need to have a person or a team responsible for planning for the future, budgeting for accessibility supports, planning ongoing consultation, taking feedback, and making decisions based on feedback
 * This person would preferably also be someone Deaf or with a disability
+* If this person doesn’t have lived experience, consider having:
+  * an advisory group with lived experiences of disability 
+  * a contractor who is an accessibility specialist
