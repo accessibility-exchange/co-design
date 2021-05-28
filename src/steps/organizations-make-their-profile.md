@@ -11,6 +11,7 @@ step: 5
 
 
 * Consultants will be more or less eager to consult with organizations depending on their reputation within the community
+* See the ways they are currently incorporating their learning about disability into services and programs
 
 ### Be transparent about their readiness to change level
 
