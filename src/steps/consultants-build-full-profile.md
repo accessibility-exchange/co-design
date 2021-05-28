@@ -9,10 +9,15 @@ step: 5
 
 ### Include a wide range of qualifications
 
-* Lived experience
 * Expertise and skills
 * Recent consultation work (including volunteer work)
 * Areas of interest
+
+### Include lived experience
+
+* Sharing their identity intersections
+* In which ways access matters to them
+* Share their experience with different disabilities
 
 ### Include accessibility information
 
