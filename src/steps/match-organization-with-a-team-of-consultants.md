@@ -30,6 +30,7 @@ step: 5
   * An organization’s needs
   * Where an organization is at on their accessibility plan journey
   * Organization’s disability awareness and how much education they still need
+  * Consultant's interest for certain organizations
 * This person can help make sure projects are distributed equitably, not just going to those who appear more “qualified” than others
 * This needs to be someone human, not an algorithm
 * Can also help match younger consultants who want mentorship to experienced ones
