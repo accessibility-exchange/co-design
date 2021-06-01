@@ -1,6 +1,6 @@
 ---
 title: Consulting team provides feedback
-subtitle: Consulting team and organization work together on their accessibility plan.
+subtitle: Consulting team and federally regulated entity work together on their accessibility plan.
 phase: Consultation
 step: 11
 ---
@@ -13,8 +13,8 @@ step: 11
 
 ### Using stories to express experiences
 
-* People have already had experiences with organizations regarding their accessibility
-* Tell stories about those experiences to the relevant organizations, ex. the process of getting a passport
+* People have already had experiences with federally regulated entities regarding their accessibility
+* Tell stories about those experiences to the relevant federally regulated entities, ex. the process of getting a passport
 
 ### Have access supporters help consultants articulate their feedback
 
@@ -24,14 +24,14 @@ step: 11
 
 ### Use community facilitation
 
-* Have facilitation come from someone that the consultants can relate to, or from their own community - this provides more authentic answers, and may help with consultants feeling pressured to say what they think organizations want to hear
+* Have facilitation come from someone that the consultants can relate to, or from their own community - this provides more authentic answers, and may help with consultants feeling pressured to say what they think federally regulated entities want to hear
 
-### Organizations need to be flexible and transparent about their communication
+### Federally regulated entities need to be flexible and transparent about their communication
 
-* Organizations need to communicate to consultants through their preferred medium
-* Organizations need to communicate the timeframe of when they’ll respond
+* Federally regulated entities need to communicate to consultants through their preferred medium
+* Federally regulated entities need to communicate the timeframe of when they’ll respond
 
-### Organizations ask questions that meet the consultant where they’re at
+### Federally regulated entities ask questions that meet the consultant where they’re at
 
 * “How can I best serve you as your (bank, etc)?”
 * “What annoys you?”

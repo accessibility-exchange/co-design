@@ -1,13 +1,13 @@
 ---
-title: Match organization with a team of consultants
+title: Match federally regulated entity with a team of consultants
 subtitle: Pre-screening and matching the right group of people to an
-  organization. Obtaining documentation from support people.
+  federally regulated entity. Obtaining documentation from support people.
 phase: Preparing together
 step: 9
 ---
 ## Ideas
 
-### Instead of organizations picking individual consultants, they should consult with a pre-assembled group or panel
+### Instead of federally regulated entities picking individual consultants, they should consult with a pre-assembled group or panel
 
 * Need to ensure a diversity of perspectives that are:
 
@@ -17,20 +17,20 @@ step: 9
   * Both rural and urban representation
   * Directly impacted by the project
   * Intergenerational
-* Mitigate the risk of organizations picking the same people who will approve their plan easily
+* Mitigate the risk of federally regulated entities picking the same people who will approve their plan easily
 
 ### A way to make sure all the necessary perspectives are included on a consulting team
 
 * Something like a committee to check
 
-### Have someone (a “concierge”) look at the organization’s needs and match them with a group of consultants
+### Have someone (a “concierge”) look at the federally regulated entity’s needs and match them with a group of consultants
 
 * Match needs to consider:
 
-  * An organization’s needs
-  * Where an organization is at on their accessibility plan journey
-  * Organization’s disability awareness and how much education they still need
-  * Consultant's interest for certain organizations
+  * A federally regulated entity’s needs
+  * Where a federally regulated entity is at on their accessibility plan journey
+  * Federally regulated entity’s disability awareness and how much education they still need
+  * Consultant's interest for certain federally regulated entities
 * This person can help make sure projects are distributed equitably, not just going to those who appear more “qualified” than others
 * This needs to be someone human, not an algorithm
 * Can also help match younger consultants who want mentorship to experienced ones
@@ -45,9 +45,9 @@ step: 9
 * Authorized to support the person
 * An ally or emotional support just for this process
 
-### Consultants should be able to reach out to a specific organization
+### Consultants should be able to reach out to a specific federally regulated entity
 
-* For example, if they’ve encountered a barrier in real life that they want to address with the organization
+* For example, if they’ve encountered a barrier in real life that they want to address with the federally regulated entity
 
 ### Data tracking
 

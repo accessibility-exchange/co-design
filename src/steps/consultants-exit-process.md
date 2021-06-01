@@ -1,7 +1,7 @@
 ---
 title: Consultant doesn’t see a good fit
 subtitle: Consultants determine whether they’re a good fit for the project after
-  learning about it from the organization
+  learning about it from the federally regulated entity
 phase: Preparing together
 step: 10.1
 ---
@@ -16,4 +16,4 @@ step: 10.1
 
 * Keep track of who is leaving the process, and why
 * Keep track of what sorts of projects consultants are leaving
-* Use this data to improve matching or training for organizations
+* Use this data to improve matching or training for federally regulated entities

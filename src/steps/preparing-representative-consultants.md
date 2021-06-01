@@ -8,7 +8,7 @@ step: 4
 
 ### Have representatives, who community members trust to speak on their behalf
 
-* They may be support workers, or from a supporting organization, or from the community themselves
+* They may be support workers, or from a supporting federally regulated entity, or from the community themselves
 
 ### Representatives are trained about issues from the community
 

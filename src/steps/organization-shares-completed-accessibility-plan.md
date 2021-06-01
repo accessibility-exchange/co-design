@@ -1,5 +1,5 @@
 ---
-title: Organization shares completed accessibility plan
+title: Federally regulated entity shares completed accessibility plan
 subtitle: Consultants have an opportunity to review and assess the completed
   accessibility plan.
 phase: After consultation
@@ -12,10 +12,10 @@ step: 13
 * Consultants come back here to look through what’s been done and offer feedback
 * Consultants can appeal the results, challenge it, or reject it
 
-### Organization updates consultants on follow up plan
+### Federally regulated entity updates consultants on follow up plan
 
-* Plan for how the organization will be implementing feedback
-* Plan for how the organization is accountable for implementing feedback
+* Plan for how the federally regulated entity will be implementing feedback
+* Plan for how the federally regulated entity is accountable for implementing feedback
 * Provide transparency on any repercussions on not implementing feedback (ex. fines)
 
 ### A way for all consultants to see the process that was taken and critique it

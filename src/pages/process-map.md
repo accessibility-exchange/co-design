@@ -6,4 +6,4 @@ eleventyNavigation:
   parent: Resources
   order: 1
 ---
-A step-by-step process of what giving feedback to organizations should look like.
+A step-by-step process of what consultation with federally regulated entities should look like.

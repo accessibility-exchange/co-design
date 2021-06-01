@@ -1,6 +1,6 @@
 ---
-title: Organization shares progress updates
-subtitle: Organizations report on the actions they have taken to implement the feedback.
+title: Federally regulated entity shares progress updates
+subtitle: Federally regulated entities report on the actions they have taken to implement the feedback.
 phase: After consultation
 step: 14
 ---
@@ -12,12 +12,12 @@ step: 14
 
 ### Consultants should be able to see:
 
-* What has been done by organizations after receiving feedback
+* What has been done by federally regulated entities after receiving feedback
 * How feedback has impacted their different services
 * What feedback has not been turned into action yet and why
 * What feedback has not been considered and why
 
 ### Data tracking
 
-* How much of the feedback the organization has taken and implemented
+* How much of the feedback the federally regulated entity has taken and implemented
 * Have a way of tracking how much impact we are having

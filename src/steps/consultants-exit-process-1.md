@@ -15,4 +15,4 @@ step: 11.2
 
 * Keep track of who is leaving the process, and why
 * Keep track of what sorts of projects consultants are leaving
-* Use this data to improve matching or training for organizations
+* Use this data to improve matching or training for federally regulated entities
