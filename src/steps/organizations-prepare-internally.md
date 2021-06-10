@@ -13,9 +13,17 @@ step: 6
 ### Federally regulated entities must go through some training about disability issues and cultural differences before engaging
 
 * Review policies like the UN Convention of Persons with Disabilities, and other relevant policies (ex. anti audism policy)
-* Learn about the difficulties that Deaf people and people with disabilities face, and the advocacy that’s already been done
-* Be aware of any complaints the federally regulated entity received  around accessibility - this can be done through storytelling about experiences with certain federally regulated entities
-* We can provide a basic resource on how to meet different access needs
+* Learn about the difficulties that Deaf people and people with disabilities face, and the advocacy that’s already been done (ex. Reconciliation for Indigenous communities)
+* Be aware of any complaints the organization received  around accessibility - this can be done through storytelling about experiences with certain organizations
+* Do training on how to work appropriately with different groups, ex. BIPOC training, accessibility training, sensitivity training
+* If going into a community, do research work on how to do so respectfully
+
+### Learn to not replicate existing power dynamics during collaboration
+
+
+* Ex. Colonialism
+
+
 
 ### Evaluate their readiness for change
 
@@ -40,5 +48,13 @@ step: 6
 * Federally regulated entities need to have a person or a team responsible for planning for the future, budgeting for accessibility supports, planning ongoing consultation, taking feedback, and making decisions based on feedback
 * This person would preferably also be someone Deaf or with a disability
 * If this person doesn’t have lived experience, consider having:
+
   * an advisory group with lived experiences of disability 
   * a contractor who is an accessibility specialist
+
+### Provide resources for these organizations
+
+
+* We can provide a basic resource on how to meet different access needs
+* Have case studies or peer sharing from other groups on what they’re doing to engage with Deaf people and People wtih Disabilities effectively
+* Have consultants on the website willing to help do this prep work with organizations, and coach them in reaching out
