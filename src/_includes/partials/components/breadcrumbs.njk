@@ -1,5 +1,5 @@
 
                         {% set breadcrumbPages = collections.all | eleventyNavigationBreadcrumb(title) %}
                         <nav class="breadcrumbs" aria-label="breadcrumb"><a href="/" rel="home">Home</a> {% for item in breadcrumbPages -%}
-                        <span class="sep">/</span> <a href="{{ item.url }}">{{ item.key }}</a>
-                        {% endfor %} <span class="sep">/</span> <a href="{{ page.url }}" aria-current="page">{{ fullTitle if fullTitle else title }}</a></nav>
+                        <span class="sep" aria-hidden="true">/</span> <a href="{{ item.url }}">{{ item.key }}</a>
+                        {% endfor %} <span class="sep" aria-hidden="true">/</span> <a href="{{ page.url }}" aria-current="page">{{ fullTitle if fullTitle else title }}</a></nav>
