@@ -1,15 +1,21 @@
 ---
 title: Consulting team and federally regulated entity connect
-subtitle: Federally regulated entities and consultants define how they want to work together.
+subtitle: Federally regulated entities and consultants define how they want to
+  work together.
 phase: Preparing together
 step: 10
 ---
 ## Ideas
 
+### Consultants get together on their own to learn about each other
+
+* Strengths, expertise, disabilities, lived experiences
+
 ### Design the consultation together - how can federally regulated entities effectively enable the participation of consultants
 
 * Federally regulated entity has a conversation with the consultants about:
 
+  * How to best start the process
   * How to best engage them
   * What makes them comfortable
   * What resources they need to be supported (ex. software licenses, note-taking services,  support people, etc)
