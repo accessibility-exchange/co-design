@@ -1,0 +1,13 @@
+---
+permalink: /pandoc.json
+---
+[
+{% for item in collections.steps %}
+    {
+        "input": {{ item.inputPath | replace("./", "") | dump | safe }},
+        {# "inputFormat": "markdown", #}
+        "output": {{ item.outputPath | replace("/index.html", ".docx") | dump | safe }},
+        "outputFormat": "docx",
+    }{% if not loop.last %},{% endif %}
+{%- endfor %}
+]

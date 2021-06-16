@@ -9,3 +9,6 @@
   publish = "dist"
   autoLaunch = false
   framework = "#custom"
+
+[[plugins]]
+package = "/plugins/netlify-plugin-pandoc"

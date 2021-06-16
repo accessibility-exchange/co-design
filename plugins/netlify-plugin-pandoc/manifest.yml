@@ -1,0 +1,6 @@
+name: 'netlify-plugin-pandoc'
+inputs:
+  - name: manifestFile
+    required: true
+    default: pandoc.json
+

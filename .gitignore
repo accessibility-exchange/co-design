@@ -1,4 +1,8 @@
+.DS_Store
 .nova
 dist
 node_modules
 src/_data/assets.json
+
+# Local Netlify folder
+.netlify
