@@ -4,7 +4,6 @@ const path = require("path");
 const fs = require("fs");
 const { promisify } = require("util");
 const readFile = promisify(fs.readFile);
-const rmFile = promisify(fs.rm);
 
 module.exports = {
     async onPostBuild(options) {
@@ -37,8 +36,6 @@ module.exports = {
             i++;
             await run.command(`pandoc ${item.input} -f ${item.inputFormat} -t ${item.outputFormat} -o ${item.output}`);
         }
-
-        await rmFile(manifestPath);
 
         status.show({summary: `Success! ${i} files converted with Pandoc.`});
     }
