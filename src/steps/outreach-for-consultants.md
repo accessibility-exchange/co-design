@@ -16,7 +16,7 @@ step: 1
 * Community newsletters
 * Campaigns
 
-### Reach out through community groups and federally regulated entitys
+### Reach out through community groups and federally regulated entities
 
 * Nonprofits
 * Community groups
