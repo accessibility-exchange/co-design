@@ -96,6 +96,13 @@ module.exports = function (config) {
             .slice(0, 10);
     });
 
+    // Pandoc sources
+    config.addCollection("pandoc", collection => {
+        return collection.getAll().filter(item => {
+            return "publish" in item.data;
+        });
+    });
+
     // Plugins
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);

@@ -1,5 +1,6 @@
 {
     "layout": "layouts/step.njk",
     "permalink": "/process-map/{{ step }}-{{ title | slug }}/",
-    "breadcrumbs": true
+    "breadcrumbs": true,
+    "publish": true
 }

@@ -25,6 +25,11 @@
                         {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
                         <h1>{{ fullTitle if fullTitle else title }}</h1>
+                        {% if publish %}
+                        {% set downloadUrl = page.url + ".docx" %}
+                        {% set downloadUrl = downloadUrl.replace("/.docx", ".docx")%}
+                        <p><a href="{{ downloadUrl }}">Download Word Document</a></p>
+                        {% endif %}
                         {% if phase %}
                         <p class="phase">Phase: <span class="badge">{{ phase }}</span></p>
                         {% endif %}

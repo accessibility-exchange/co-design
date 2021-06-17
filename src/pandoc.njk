@@ -2,7 +2,7 @@
 permalink: /pandoc.json
 ---
 [
-{% for item in collections.steps %}
+{% for item in collections.pandoc %}
     {
         "input": {{ item.inputPath | replace("./", "") | dump | safe }},
         "inputFormat": "markdown",
