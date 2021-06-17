@@ -99,7 +99,7 @@ module.exports = function (config) {
     // Pandoc sources
     config.addCollection("pandoc", collection => {
         return collection.getAll().filter(item => {
-            return "publish" in item.data;
+            return "publish" in item.data && item.data.publish === true;
         });
     });
 
@@ -114,6 +114,10 @@ module.exports = function (config) {
         }
         const filtered = collection.filter(item => item.data.phase === phase);
         return filtered;
+    });
+
+    config.addFilter("downloadUrl", function (url, format) {
+        return `${url.slice(0, -1)}.${format}`;
     });
 
     // 404

@@ -1,9 +1,8 @@
 ---
-title: Federally regulated entity shares rough draft for feedback
+title: 12. Federally regulated entity shares rough draft for feedback
 subtitle: Consultants have another chance to look through a rough draft of the
   Accessibility Plan, and make sure nothing is missing.
 phase: Consultation
-step: 12
 ---
 ## Ideas
 

@@ -1,9 +1,8 @@
 ---
-title: Consulting team and federally regulated entity connect
+title: 10. Consulting team and federally regulated entity connect
 subtitle: Federally regulated entities and consultants define how they want to
   work together.
 phase: Preparing together
-step: 10
 ---
 ## Ideas
 

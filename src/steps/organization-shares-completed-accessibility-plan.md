@@ -1,9 +1,8 @@
 ---
-title: Federally regulated entity shares completed accessibility plan
+title: 13. Federally regulated entity shares completed accessibility plan
 subtitle: Consultants have an opportunity to review and assess the completed
   accessibility plan.
 phase: After consultation
-step: 13
 ---
 ## Ideas
 

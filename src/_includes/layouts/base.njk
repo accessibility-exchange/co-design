@@ -26,9 +26,7 @@
                         {%- endif %}
                         <h1>{{ fullTitle if fullTitle else title }}</h1>
                         {% if publish %}
-                        {% set downloadUrl = page.url + ".docx" %}
-                        {% set downloadUrl = downloadUrl.replace("/.docx", ".docx")%}
-                        <p><a href="{{ downloadUrl }}">Download Word Document</a></p>
+                        <p><a download href="{{ page.url | downloadUrl(publishFormat) }}">Download as {{ formats[publishFormat] }}</a></p>
                         {% endif %}
                         {% if phase %}
                         <p class="phase">Phase: <span class="badge">{{ phase }}</span></p>

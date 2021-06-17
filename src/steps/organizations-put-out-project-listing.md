@@ -1,9 +1,8 @@
 ---
-title: Federally regulated entities put out project listing
+title: 8. Federally regulated entities put out project listing
 subtitle: Federally regulated entities create a project listing with the
   relevant information of interest to consultants.
 phase: Preparing federally regulated entities
-step: 8
 ---
 ## Ideas
 

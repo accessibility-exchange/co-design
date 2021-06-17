@@ -19,10 +19,10 @@
 
     <ul role="list">
     {%- if previousStep %}
-        <li><a href="{{ previousStep.url }}">&larr; {{ previousStep.data.step }}. {{ previousStep.data.title }}</a></li>
+        <li><a href="{{ previousStep.url }}">&larr; {{ previousStep.data.title }}</a></li>
     {%- endif %}
     {%- if nextStep %}
-        <li><a href="{{ nextStep.url }}">{{ nextStep.data.step }}. {{ nextStep.data.title }} &rarr;</a></li>
+        <li><a href="{{ nextStep.url }}">{{ nextStep.data.title }} &rarr;</a></li>
     {%- endif %}
     </ul>
 </nav>

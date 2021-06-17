@@ -1,9 +1,8 @@
 ---
-title: Consultant doesn’t see a good fit
+title: 10.1. Consultant doesn’t see a good fit
 subtitle: Consultants determine whether they’re a good fit for the project after
   learning about it from the federally regulated entity
 phase: Preparing together
-step: 10.1
 ---
 ## Ideas
 

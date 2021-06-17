@@ -1,8 +1,7 @@
 ---
-title: Federally regulated entities prepare internally
+title: 6. Federally regulated entities prepare internally
 subtitle: Get ready to engage with Deaf people and people with disabilities.
 phase: Preparing federally regulated entities
-step: 6
 ---
 ## Ideas
 

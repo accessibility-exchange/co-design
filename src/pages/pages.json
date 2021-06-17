@@ -1,5 +1,7 @@
 {
     "layout": "layouts/page.njk",
     "permalink": "/{{ title | slug }}/",
-    "breadcrumbs": true
+    "breadcrumbs": true,
+    "publish": true,
+    "publishFormat": "docx"
 }

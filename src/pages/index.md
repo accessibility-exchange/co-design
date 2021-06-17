@@ -6,6 +6,7 @@ permalink: /
 eleventyNavigation:
     key: Home
     order: 0
+publish: false
 ---
 Accessibility in Action sets out to create a platform that will bring disability communities together with the
 thousands of entities regulated under the [Accessible Canada Act of

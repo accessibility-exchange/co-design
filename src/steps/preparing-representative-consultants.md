@@ -1,8 +1,7 @@
 ---
-title: Preparing representative consultants
+title: 4. Preparing representative consultants
 subtitle: Setting up accountability mechanisms for representatives
 phase: Preparing consultants
-step: 4
 ---
 ## Ideas
 

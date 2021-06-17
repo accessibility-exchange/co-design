@@ -1,9 +1,8 @@
 ---
-title: Consultants build full profile
+title: 5. Consultants build full profile
 subtitle: Support individual consultants and representatives to build a full
   profile about themselves
 phase: Preparing consultants
-step: 5
 ---
 ## Ideas
 

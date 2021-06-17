@@ -3,7 +3,8 @@
 
 module.exports = {
     eleventyComputed: {
-        fullTitle: data => `${data.step}. ${data.title}`,
+        shortTitle: data => data.title.substring(data.title.lastIndexOf(".") + 1, data.title.length),
+        step: data => data.title.substring(0, data.title.lastIndexOf(".")),
         eleventyNavigation: {
             key: data => data.title,
             parent: "Process Map",

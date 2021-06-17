@@ -1,9 +1,8 @@
 ---
-title: Outreach for consultants
+title: 1. Outreach for consultants
 subtitle: Reaching out to community members and setting them up to be on the
   path to be a consultant
 phase: Recruitment
-step: 1
 ---
 ## Ideas
 
