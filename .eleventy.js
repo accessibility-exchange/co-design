@@ -96,6 +96,13 @@ module.exports = function (config) {
             .slice(0, 10);
     });
 
+    // Pandoc sources
+    config.addCollection("pandoc", collection => {
+        return collection.getAll().filter(item => {
+            return "publish" in item.data && item.data.publish === true;
+        });
+    });
+
     // Plugins
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);
@@ -107,6 +114,10 @@ module.exports = function (config) {
         }
         const filtered = collection.filter(item => item.data.phase === phase);
         return filtered;
+    });
+
+    config.addFilter("downloadUrl", function (url, format) {
+        return `${url.slice(0, -1)}.${format}`;
     });
 
     // 404

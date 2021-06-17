@@ -1,9 +1,8 @@
 ---
-title: Consultant leaves process
+title: 11.2. Consultant leaves process
 subtitle: Consultant can leave if the process isn’t working out, or if there is
   an issue for them
 phase: Consultation
-step: 11.2
 ---
 ## Ideas
 

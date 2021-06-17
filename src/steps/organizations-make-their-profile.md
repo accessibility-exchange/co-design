@@ -1,9 +1,8 @@
 ---
-title: Federally regulated entities make their profile
+title: 7. Federally regulated entities make their profile
 subtitle: Federally regulated entities complete a profile with the relevant information of
   interest to consultants.
 phase: Preparing federally regulated entities
-step: 7
 ---
 ## Ideas
 

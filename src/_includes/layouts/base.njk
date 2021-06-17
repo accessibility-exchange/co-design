@@ -25,6 +25,9 @@
                         {% include "partials/components/breadcrumbs.njk" %}
                         {%- endif %}
                         <h1>{{ fullTitle if fullTitle else title }}</h1>
+                        {% if publish %}
+                        <p><a download href="{{ page.url | downloadUrl(publishFormat) }}">Download as {{ formats[publishFormat] }}</a></p>
+                        {% endif %}
                         {% if phase %}
                         <p class="phase">Phase: <span class="badge">{{ phase }}</span></p>
                         {% endif %}

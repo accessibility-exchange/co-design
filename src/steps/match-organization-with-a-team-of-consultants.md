@@ -1,9 +1,8 @@
 ---
-title: Match federally regulated entity with a team of consultants
+title: 9. Match federally regulated entity with a team of consultants
 subtitle: Pre-screening and matching the right group of people to an
   federally regulated entity. Obtaining documentation from support people.
 phase: Preparing together
-step: 9
 ---
 ## Ideas
 

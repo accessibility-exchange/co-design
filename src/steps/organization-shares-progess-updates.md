@@ -1,9 +1,8 @@
 ---
-title: Federally regulated entity shares progress updates
+title: 14. Federally regulated entity shares progress updates
 subtitle: Federally regulated entities report on the actions they have taken to
   implement the feedback.
 phase: After consultation
-step: 14
 ---
 ## Ideas
 

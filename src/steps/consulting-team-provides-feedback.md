@@ -1,8 +1,7 @@
 ---
-title: Consulting team provides feedback
+title: 11. Consulting team provides feedback
 subtitle: Consulting team and federally regulated entity work together on their accessibility plan.
 phase: Consultation
-step: 11
 ---
 ## Ideas
 
