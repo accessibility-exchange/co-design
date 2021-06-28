@@ -2,6 +2,7 @@
 title: 6. Federally regulated entities prepare internally
 subtitle: Get ready to engage with Deaf people and people with disabilities.
 phase: Preparing federally regulated entities
+step: 6
 ---
 ## Ideas
 
@@ -11,18 +12,11 @@ phase: Preparing federally regulated entities
 
 ### Federally regulated entities must go through some training about disability issues and cultural differences before engaging
 
-* Review policies like the UN Convention of Persons with Disabilities, and other relevant policies (ex. anti audism policy)
+* Review policies like the UN Convention of Persons with Disabilities, and other relevant policies (ex. anti audism policy, human rights code)
 * Learn about the difficulties that Deaf people and people with disabilities face, and the advocacy that’s already been done (ex. Reconciliation for Indigenous communities)
 * Be aware of any complaints the organization received  around accessibility - this can be done through storytelling about experiences with certain organizations
 * Do training on how to work appropriately with different groups, ex. BIPOC training, accessibility training, sensitivity training
 * If going into a community, do research work on how to do so respectfully
-
-### Learn to not replicate existing power dynamics during collaboration
-
-
-* Ex. Colonialism
-
-
 
 ### Evaluate their readiness for change
 
@@ -32,7 +26,11 @@ phase: Preparing federally regulated entities
 
 ### Set clear expectations around collaboration
 
-* Federally regulated entities need to know what to expect in regards to resources they need to provide, and the timelines, working styles, communication styles, and access needs of the community
+* Entities need to know what to expect in regards to resources they need to provide, and the timelines, working styles, communication styles,  and access needs of the community
+* Always provide communication in multiple mediums and formats
+* Entities need to know that this process is more partnership-based rather than hierarchical, using an anti-oppression approach
+* Entities receive a guideline of appropriate behaviour with consultants
+  Present non-negotiable fee structure for consultants 
 
 ### Setting clear expectations around outcomes
 
@@ -53,7 +51,8 @@ phase: Preparing federally regulated entities
 
 ### Provide resources for these organizations
 
-
 * We can provide a basic resource on how to meet different access needs
 * Have case studies or peer sharing from other groups on what they’re doing to engage with Deaf people and People wtih Disabilities effectively
+* Provide previous insights and best practices, especially in their particular industry
+* A glossary of terms helps entities use the appropriate terms when referring to consultant's abilities
 * Have consultants on the website willing to help do this prep work with organizations, and coach them in reaching out
