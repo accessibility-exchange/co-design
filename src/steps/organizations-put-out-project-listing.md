@@ -3,6 +3,7 @@ title: 8. Federally regulated entities put out project listing
 subtitle: Federally regulated entities create a project listing with the
   relevant information of interest to consultants.
 phase: Preparing federally regulated entities
+step: 8
 ---
 ## Ideas
 
@@ -21,7 +22,9 @@ phase: Preparing federally regulated entities
 
 ### Provide a way for consultants to ask more questions about the project
 
-### Once federally regulated entities shares their project goals, recommending  similar past projects, best practices, and resources 
+### Once federally regulated entities shares their project goals, recommending  similar past projects, best practices, and resources
 
 * To not reinvent the wheel
 * Potentially consult with the same group of consultants as others in their sector
+
+### A glossary of roles to understand who’s involved in the process
