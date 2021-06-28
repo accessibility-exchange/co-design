@@ -1,7 +1,9 @@
 ---
 title: 11. Consulting team provides feedback
-subtitle: Consulting team and federally regulated entity work together on their accessibility plan.
+subtitle: Consulting team and federally regulated entity work together on their
+  accessibility plan.
 phase: Consultation
+step: 11
 ---
 ## Ideas
 
@@ -20,6 +22,9 @@ phase: Consultation
 * For non-verbal consultants
 * For consultants who encounter barriers in articulating their thought processes easily
 * For newcomers and people who don’t speak the language used
+* Include a way to specify which feedback is from the consultant directly, and which feedback may include perspectives from the access supporter
+* Enable a circle of caregivers to all be a part of the process and provide safety 
+* Entities should be flexible in case consultants’ access needs have changed
 
 ### Use community facilitation
 
@@ -37,15 +42,19 @@ phase: Consultation
 * “What makes you feel excluded when you walk into a business?”
 * “What are you looking for, what do you need?”
 
-### Have checks and balances to make sure the process is equitable
+### Have a neutral third party to be involved as process support
 
-* Neutral third party, like a project manager, to be involved through the process and provide support
-* Make sure safety and well-being of the consultants are met
-* Have safety features and a quick exit for the consultation
+* Make sure safety and well-being of the consultants is met
+* Conduct debrief with consultants to support them emotionally
+* Ensure representative consultants are responsibly advocating for their constituency group
+* Attempt to resolve a conflict before consultant leaves the process
 
 ### Develop follow-up plan together
 
 * When follow up will happen
+* What follow up will actually look like
 * How they’re going to implement feedback
 * Who is responsible for implementing feedback
 * How to reach out for updates
+
+### Representatives check in with their constituency group, and get actual quotes and comments to inform feedback given to entities
