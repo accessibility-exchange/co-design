@@ -1,8 +1,9 @@
 ---
 title: 2. Sampling and registration
-phase: Recruitment
 subtitle: Potential consultants get a walkthrough of the website, learn what
   this is all about, and are supported in registering
+phase: Recruitment
+step: 2
 ---
 ## Ideas
 
@@ -18,3 +19,9 @@ subtitle: Potential consultants get a walkthrough of the website, learn what
   * who is available to support your participation?
 
 ### An opportunity for consultants to ask questions about this process, and how the website works
+
+### Make sure the website walkthrough is accessible in different formats
+
+
+* Video tutorials, infographics, flyers, posters, etc
+* Support people who don’t read or write
