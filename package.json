@@ -61,6 +61,6 @@
         "sass": "1.35.1",
         "sass-loader": "12.1.0",
         "slugify": "1.5.3",
-        "standard-version": "9.3.0"
+        "standard-version": "9.3.1"
     }
 }
