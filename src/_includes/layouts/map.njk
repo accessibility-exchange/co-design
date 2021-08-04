@@ -10,9 +10,9 @@
         {% for phase in phases %}
         <li>
             {{ phase }}
-            <ol>
             {% set steps = collections.steps | phaseFilter(phase) %}
             {% set lastStepLevel = 1 %}
+            <ol start="{{ steps[0].data.step }}">
             {% for step in steps %}
                 {% if "." in step.data.step | string %}
                     {% set currentStepLevel = 2 %}
@@ -31,7 +31,7 @@
                     </li>
                     {% endif %}
                 {% endif %}
-                <li data-number="{{ step.data.step }}">
+                <li>
                     <p class="step">
                     {% if step.url %}
                     <a href="{{ step.url }}">{{ step.data.shortTitle }}</a>

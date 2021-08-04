@@ -258,17 +258,9 @@ ol.process {
             padding-inline-start: var(--step-2);
         }
 
-        > li::before {
-            content: attr(data-number) ".";
-        }
-
         ol {
             > li {
                 padding-inline-start: var(--step-4);
-            }
-
-            > li::before {
-                content: attr(data-number) ".";
             }
         }
     }
@@ -312,6 +304,34 @@ summary,
         padding: 0;
         width: auto;
     }
+}
+
+section {
+    margin-top: var(--step-2);
+}
+
+button.accordion {
+    background: var(--ll-background-color);
+    border: 0;
+    border-top: var(--ll-border-thick);
+    color: var(--ll-text-color);
+    display: block;
+    line-height: 1;
+    padding-inline: 0;
+    text-align: start;
+    width: 100%;
+
+    > h2 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.subhead {
+    font-style: italic;
+    margin-block-start: 0;
 }
 
 [class*=fl-theme]:not(.fl-theme-prefsEditor-default) {

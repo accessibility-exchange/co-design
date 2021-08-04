@@ -1,0 +1,29 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "page page--blueprint-step" %}
+
+{% block content %}
+<div class="content flow">
+    {{ content | safe }}
+</div>
+<nav class="pagination" aria-label="pagination">
+    {% set previousStep = collections.steps | getPreviousCollectionItem(page) %}
+    {% if previousStep.url === false %}
+    {% set previousStep = collections.steps | getPreviousCollectionItem(previousStep) %}
+    {% endif %}
+
+    {% set nextStep = collections.steps | getNextCollectionItem(page) %}
+    {% if nextStep.url === false %}
+    {% set nextStep = collections.steps | getNextCollectionItem(nextStep) %}
+    {% endif %}
+
+    <ul role="list">
+    {%- if previousStep %}
+        <li><a href="{{ previousStep.url }}">&larr; {{ previousStep.data.title }}</a></li>
+    {%- endif %}
+    {%- if nextStep %}
+        <li><a href="{{ nextStep.url }}">{{ nextStep.data.title }} &rarr;</a></li>
+    {%- endif %}
+    </ul>
+</nav>
+{% endblock %}

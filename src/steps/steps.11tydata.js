@@ -7,7 +7,7 @@ module.exports = {
         step: data => data.title.substring(0, data.title.lastIndexOf(".")),
         eleventyNavigation: {
             key: data => data.title,
-            parent: "Process Map",
+            parent: "Process map",
             order: data => data.step * 10
         }
     }

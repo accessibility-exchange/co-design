@@ -42,9 +42,22 @@ collections:
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: blueprint-steps
+    label: Blueprint Steps
+    label_singular: Blueprint Step
+    folder: "src/blueprint-steps"
+    slug: "{{slug}}"
+    preview_path: "/resources/service-blueprint/{{slug}}/"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Step Number", name: "step", widget: "number", min: 1, value_type: "float", step: 1}
+      - {label: "Body", name: "body", widget: "markdown", default: "## Who's involved\n\n_Some info about this section_\n\nTODO.\n\n## What's happening\n\n_Some info about this section_\n\nTODO.\n\n## Communications channels and tools\n\n_Some info about this section_\n\nTODO.\n\n## Backstage processes\n\n_Some info about this section_\n\nTODO.\n\n## Support processes\n\n_Some info about this section_\n\nTODO.\n\n## Potential barriers\n\n_Some info about this section_\n\nTODO."}
   - name: steps
-    label: Steps
-    label_singular: Step
+    label: Map Steps
+    label_singular: Map Step
     folder: "src/steps"
     slug: "{{slug}}"
     preview_path: "/process-map/{{slug}}/"

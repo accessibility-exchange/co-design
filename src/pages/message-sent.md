@@ -1,5 +1,5 @@
 ---
-title: Message Sent
+title: Message sent
 breadcrumbs: false
 publish: false
 ---
