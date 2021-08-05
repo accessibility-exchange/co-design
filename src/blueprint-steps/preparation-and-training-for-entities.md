@@ -1,7 +1,7 @@
 ---
 title: Preparation and training for entities
 step: 4
-tags: ["blueprint-entities"]
+for: entities
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

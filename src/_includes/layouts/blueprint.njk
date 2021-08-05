@@ -7,15 +7,15 @@
     {{ content | safe }}
     <h2>What's happening</h2>
     <h3>For consultants</h3>
-    {% for step in collections["blueprint-consultants"] | sort(false, false, data.step)%}
+    {% for step in collections["for-consultants"] | sort(false, false, data.step)%}
     <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
     {% endfor %}
     <h3>For entities</h3>
-    {% for step in collections["blueprint-entities"] | sort(false, false, data.step)%}
+    {% for step in collections["for-entities"] | sort(false, false, data.step)%}
     <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
     {% endfor %}
     <h3>For both</h3>
-    {% for step in collections["blueprint-both"] | sort(false, false, data.step)%}
+    {% for step in collections["for-both"] | sort(false, false, data.step)%}
     <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
     {% endfor %}
 </div>

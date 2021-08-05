@@ -1,7 +1,7 @@
 ---
 title: Outreach for entities
 step: 1
-tags: ["blueprint-entities"]
+for: entities
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

@@ -1,7 +1,7 @@
 ---
 title: Learning how to work together
 step: 6
-tags: ["blueprint-both"]
+for: both
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

@@ -1,7 +1,7 @@
 ---
 title: Share rough draft
 step: 8
-tags: ["blueprint-both"]
+for: both
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

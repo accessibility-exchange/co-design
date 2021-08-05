@@ -89,6 +89,42 @@ module.exports = function (config) {
         ];
     });
 
+    config.addCollection("for-consultants", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "consultants";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
+    config.addCollection("for-entities", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "entities";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
+    config.addCollection("for-both", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "both";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
     // RSS Feed
     config.addCollection("updatesFeed", collection => {
         return [...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)]

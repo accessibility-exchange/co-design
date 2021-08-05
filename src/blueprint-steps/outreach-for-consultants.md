@@ -1,8 +1,7 @@
 ---
 title: Outreach for consultants
 step: 1
-tags:
-  - blueprint-consultants
+for: consultants
 sections:
   - title: Who's involved
     subtitle: Some info about this section

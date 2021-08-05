@@ -1,7 +1,7 @@
 ---
 title: Fill out consultant page
 step: 3
-tags: ["blueprint-consultants"]
+for: consultants
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

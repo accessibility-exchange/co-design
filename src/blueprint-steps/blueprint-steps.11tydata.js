@@ -6,7 +6,7 @@ module.exports = {
         eleventyNavigation: {
             key: data => data.title,
             parent: "Service blueprint",
-            order: data => data.step * 10
+            order: data => data.step
         }
     }
 };

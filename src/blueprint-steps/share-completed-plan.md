@@ -1,7 +1,7 @@
 ---
 title: Share completed plan
 step: 9
-tags: ["blueprint-both"]
+for: both
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

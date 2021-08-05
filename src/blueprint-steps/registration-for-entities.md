@@ -1,7 +1,7 @@
 ---
 title: Registration for entities
 step: 2
-tags: ["blueprint-entities"]
+for: entities
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

@@ -1,7 +1,7 @@
 ---
 title: Fill out entity and project page
 step: 3
-tags: ["blueprint-entities"]
+for: entities
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

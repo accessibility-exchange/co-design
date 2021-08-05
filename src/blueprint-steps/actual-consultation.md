@@ -1,7 +1,7 @@
 ---
 title: Actual consultation
 step: 7
-tags: ["blueprint-both"]
+for: both
 sections:    
   - title: Who's involved
     subtitle: Some info about this section

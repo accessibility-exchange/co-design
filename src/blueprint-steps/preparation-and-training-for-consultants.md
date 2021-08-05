@@ -1,7 +1,7 @@
 ---
 title: Preparation and training for consultants
 step: 4
-tags: ["blueprint-consultants"]
+for: consultants
 sections:    
   - title: Who's involved
     subtitle: Some info about this section
