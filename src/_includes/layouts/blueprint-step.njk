@@ -1,0 +1,66 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "page page--blueprint-step" %}
+
+{% block content %}
+<div class="content flow">
+    {% for section in sections %}
+    <section class="flow" x-data="{ open : false }" aria-labelledby="{{ section.title | slug }}">
+        <button class="accordion" @click="open = ! open" :aria-expanded="open.toString()">
+            <h2 id="{{ section.title | slug }}">
+                {{ section.title }}
+                {% include "svg/chevron.svg" %}
+            </h2>
+        </button>
+        {% if section.subtitle %}
+        <p class="subtitle">{{ section.subtitle }}</p>
+        {% endif %}
+        <div class="content flow" x-show="open">
+            {{ section.content | markdown | safe }}
+        </div>
+    </section>
+    {% endfor %}
+</div>
+<nav class="pagination flow" aria-label="pagination">
+    {% if for === "consultants" %}
+    {% set correspondingStep = false %}
+    {% for item in collections["for-consultants"] %}
+        {% if item.data.step === step %}
+        {% set correspondingStep = item %}
+        {% endif %}
+    {% endfor %}
+    <p><a href="{{ correspondingStep.url }}">What's happening for entities</a></p>
+    {% elif for === "entities" %}
+    {% set correspondingStep = false %}
+    {% for item in collections["for-entities"] %}
+        {% if item.data.step === step %}
+        {% set correspondingStep = item %}
+        {% endif %}
+    {% endfor %}
+    <p><a href="{{ correspondingStep.url }}">What's happening for consultants</a></p>
+    {% endif %}
+    
+    {% set previousStep = collections['for-' + for] | getPreviousCollectionItem(page) %}
+    {% set nextStep = collections['for-' + for] | getNextCollectionItem(page) %}
+
+    {% set who = 'consultants and entities' %}
+
+    {% if for !== 'both' %}
+        {% set who = for %}
+    {% endif %}
+
+    <ul role="list">
+    {%- if previousStep %}
+        <li><a href="{{ previousStep.url }}"><span aria-hidden="true">&larr;</span> Previous step for {{ who }}</a></li>
+    {%- elif for === 'both' %}
+        <li><a href="{{ collections['for-consultants'][collections['for-consultants'].length - 1].url }}"><span aria-hidden="true">&larr;</span> Previous step for consultants</a></li>
+        <li><a href="{{ collections['for-entities'][collections['for-entities'].length - 1].url }}"><span aria-hidden="true">&larr;</span> Previous step for entities</a></li>
+    {%- endif %}
+    {%- if nextStep %}
+        <li><a href="{{ nextStep.url }}">Next step for {{ who }} <span aria-hidden="true">&rarr;</span></a></li>
+    {%- elif for === 'consultants' or for === 'entities' %}
+        <li><a href="{{ collections['for-both'][0].url }}">Next step for consultants and regulated entities <span aria-hidden="true">&rarr;</span></a></li>
+    {%- endif %}
+    </ul>
+</nav>
+{% endblock %}

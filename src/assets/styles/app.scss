@@ -169,17 +169,6 @@ nav {
     margin-top: var(--step-4);
 }
 
-.pagination ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.pagination ul li + li {
-    margin-left: var(--step--1);
-}
-
 .p-author,
 .dt-published,
 .time,
@@ -258,17 +247,9 @@ ol.process {
             padding-inline-start: var(--step-2);
         }
 
-        > li::before {
-            content: attr(data-number) ".";
-        }
-
         ol {
             > li {
                 padding-inline-start: var(--step-4);
-            }
-
-            > li::before {
-                content: attr(data-number) ".";
             }
         }
     }
@@ -312,6 +293,93 @@ summary,
         padding: 0;
         width: auto;
     }
+}
+
+.join {
+    display: none;
+}
+
+.side-by-side > * h3,
+.both h3 {
+    margin: 1em 0 0;
+}
+
+@media (min-width: 768px) {
+    .side-by-side {
+        display: flex;
+        flex-direction: row;
+        margin-block-start: 0;
+
+        > * {
+            margin-block-start: 0;
+            width: calc(50% - var(--step-0) / 2);
+        }
+    }
+
+    .both {
+        margin-inline: auto;
+        width: calc(50% - var(--step-0) / 2);
+    }
+
+    .join {
+        display: block;
+        margin-block-start: var(--step-2);
+    }
+}
+
+section {
+    margin-top: var(--step-2);
+}
+
+dl button {
+    background: var(--ll-background-color);
+    border: 0;
+    color: var(--ll-text-color);
+    line-height: 1;
+    padding: 0;
+}
+
+button.accordion {
+    background: var(--ll-background-color);
+    border: 0;
+    border-top: var(--ll-border-thick);
+    color: var(--ll-text-color);
+    display: block;
+    line-height: 1;
+    padding-inline: 0;
+    text-align: start;
+    width: 100%;
+
+    h2 {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    svg {
+        transition: transform 0.25s ease-in-out;
+    }
+
+    &[aria-expanded="true"] {
+        svg {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+section .subtitle {
+    font-style: italic;
+    margin-block-start: 0;
+}
+
+.callout {
+    background-color: var(--ll-accent-background-color);
+    padding: var(--step-0);
+}
+
+[role="list"] {
+    padding-inline-start: 0;
 }
 
 [class*=fl-theme]:not(.fl-theme-prefsEditor-default) {

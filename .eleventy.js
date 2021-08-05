@@ -19,12 +19,18 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 
+// Import shortcodes
+const calloutShortcode = require("./src/shortcodes/callout.js");
+
 // Import transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
     config.setUseGitIgnore(false);
+
+    // Shortcodes
+    config.addPairedShortcode("callout", calloutShortcode);
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
@@ -89,6 +95,42 @@ module.exports = function (config) {
         ];
     });
 
+    config.addCollection("for-consultants", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "consultants";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
+    config.addCollection("for-entities", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "entities";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
+    config.addCollection("for-both", collection => {
+        return [
+            ...collection.getFilteredByGlob("./src/blueprint-steps/*.md")
+                .filter(function (item) {
+                    return item.data["for"] === "both";
+                })
+                .sort(function (a, b) {
+                    return a.data.step - b.data.step;
+                })
+        ];
+    });
+
     // RSS Feed
     config.addCollection("updatesFeed", collection => {
         return [...collection.getFilteredByGlob("./src/updates/*.md").filter(liveUpdates)]
@@ -142,7 +184,6 @@ module.exports = function (config) {
             output: "dist",
             includes: "_includes"
         },
-        // markdownTemplateEngine: "njk",
         passthroughFileCopy: true
     };
 };

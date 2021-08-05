@@ -1,10 +1,10 @@
 ---
-title: Process Map
+title: Process map
 layout: layouts/map
 eleventyNavigation:
-  key: Process Map
+  key: Process map
   parent: Resources
-  order: 1
+  order: 0
 publish: false
 ---
 A step-by-step process of what consultation with federally regulated entities should look like.

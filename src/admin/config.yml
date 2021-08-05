@@ -42,9 +42,36 @@ collections:
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: blueprint-steps
+    label: Blueprint Steps
+    label_singular: Blueprint Step
+    folder: "src/blueprint-steps"
+    slug: "{{slug}}"
+    preview_path: "/resources/service-blueprint/{{slug}}/"
+    sortable_fields: [title, step]
+    editor:
+      preview: false
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Step Number", name: "step", widget: "number", min: 1, value_type: "float", step: 1}
+      - label: "For"
+        name: "for"
+        widget: "select"
+        options:
+        - { label: "Consultants", value: "consultants" }
+        - { label: "Entities", value: "entities" }
+        - { label: "Both", value: "both" }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Content", name: "content", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list], editor_components: []}
   - name: steps
-    label: Steps
-    label_singular: Step
+    label: Map Steps
+    label_singular: Map Step
     folder: "src/steps"
     slug: "{{slug}}"
     preview_path: "/process-map/{{slug}}/"
@@ -76,3 +103,20 @@ collections:
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: data
+    label: Data
+    files:
+      - name: definitions
+        label: Definitions
+        file: "src/_data/definitions.json"
+        editor:
+          preview: false
+        fields:
+          - label: Roles
+            label_singular: Role
+            name: roles
+            widget: list
+            fields:
+              - {label: Term, name: term, widget: string}
+              - {label: Definition, name: definition, widget: text}
+              - {label: Variations, name: variations, widget: list}
