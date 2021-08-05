@@ -299,6 +299,13 @@ section {
     margin-top: var(--step-2);
 }
 
+dl button {
+    background: var(--ll-background-color);
+    border: 0;
+    color: var(--ll-text-color);
+    padding: 0;
+}
+
 button.accordion {
     background: var(--ll-background-color);
     border: 0;

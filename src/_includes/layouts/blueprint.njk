@@ -5,6 +5,22 @@
 {% block content %}
 <div class="content flow">
     {{ content | safe }}
+    <h2>Who's involved</h2>
+    <dl class="flow">
+    {%- for role in definitions.roles %}
+        <div x-data="{ open: false }">
+            <dt>
+                <button @click="open = ! open" :aria-expanded="open.toString()">
+                    {{ role.term }}
+                    <svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1l6.5 6.5L14 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </dt>
+            <dd x-show="open">{{ role.definition }}</dd>
+        </div>
+    {%- endfor %}
+    </dl>
     <h2>What's happening</h2>
     <h3>For consultants</h3>
     {% for step in collections["for-consultants"] | sort(false, false, data.step)%}
