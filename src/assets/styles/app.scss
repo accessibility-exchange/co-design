@@ -333,6 +333,11 @@ section .subtitle {
     margin-block-start: 0;
 }
 
+.callout {
+    background-color: var(--ll-accent-background-color);
+    padding: var(--step-0);
+}
+
 [role="list"] {
     padding-inline-start: 0;
 }

@@ -19,12 +19,18 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 
+// Import shortcodes
+const calloutShortcode = require("./src/shortcodes/callout.js");
+
 // Import transforms
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
     config.setUseGitIgnore(false);
+
+    // Shortcodes
+    config.addPairedShortcode("callout", calloutShortcode);
 
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
