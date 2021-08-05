@@ -1,54 +1,76 @@
 {
-    "roles": [
-        {
-            "term": "Consultants",
-            "definition": "People with lived experience of disability, who are independent or a part of a disability organization, who will consult with Entities on their accessibility plan. This also includes caregivers and parents.",
-            "variations": []
-        },
-        {
-            "term": "Representative consultants",
-            "definition": "Consultants who represent a constituency group. They are appointed by the group, or matched by the Social Enterprise.",
-            "variations": []
-        },
-        {
-            "term": "Federally regulated entities",
-            "definition": "Any organization that is regulated by the federal government under the Accessible Canada Act.",
-            "variations": []
-        },
-        {
-            "term": "Disability organizations",
-            "definition": "Any organization that serves the disability community. ",
-            "variations": []
-        },
-        {
-            "term": "Caregivers",
-            "definition": "This can be a family member, friend, or someone trained to provide care. They act as a liaison between entity and consultant, and ensures safety and well-being of the consultant.",
-            "variations": []
-        },
-        {
-            "term": "Support people",
-            "definition": "This can be anyone the consultant has picked as someone who can provide support to them. The support person does not act as the liaison.",
-            "variations": []
-        },
-        {
-            "term": "Social enterprise",
-            "definition": "The group that supports the consultation process and is responsible for service delivery.",
-            "variations": []
-        },
-        {
-            "term": "Outreach team",
-            "definition": "People who are members of the disability community and/or other under-represented communities, who will do outreach to potential consultants and support them to become consultants",
-            "variations": []
-        },
-        {
-            "term": "Advisory committee",
-            "definition": "A trained group of people with lived experience of disability and intersectionality. They ensure representation of consultants on projects, and provides and mentorship to the consultants during the consultation process.",
-            "variations": []
-        },
-        {
-            "term": "Third-party conveners",
-            "definition": "Trained individuals who conducts and facilitates the consultation the behalf of Federally Regulated Entities.",
-            "variations": []
-        }
-    ]
+  "roles": [
+    {
+      "term": "Consultants",
+      "definition": "People with lived experience of disability, who are independent or a part of a disability organization, who will consult with Entities on their accessibility plan. This also includes caregivers and parents.",
+      "variations": [
+        "consultant",
+        "individual consultant"
+      ]
+    },
+    {
+      "term": "Representative consultants",
+      "definition": "Consultants who represent a constituency group. They are appointed by the group, or matched by the Social Enterprise.",
+      "variations": [
+        "representatives",
+        "representative"
+      ]
+    },
+    {
+      "term": "Federally regulated entities",
+      "definition": "Any organization that is regulated by the federal government under the Accessible Canada Act.",
+      "variations": [
+        "entity",
+        "entities"
+      ]
+    },
+    {
+      "term": "Disability organizations",
+      "definition": "Any organization that serves the disability community. ",
+      "variations": [
+        "organization",
+        "organizations"
+      ]
+    },
+    {
+      "term": "Caregivers",
+      "definition": "This can be a family member, friend, or someone trained to provide care. They act as a liaison between entity and consultant, and ensures safety and well-being of the consultant.",
+      "variations": [
+        "caregiver"
+      ]
+    },
+    {
+      "term": "Support people",
+      "definition": "This can be anyone the consultant has picked as someone who can provide support to them. The support person does not act as the liaison.",
+      "variations": [
+        "support person"
+      ]
+    },
+    {
+      "term": "Social enterprise",
+      "definition": "The group that supports the consultation process and is responsible for service delivery.",
+      "variations": []
+    },
+    {
+      "term": "Outreach team",
+      "definition": "People who are members of the disability community and/or other under-represented communities, who will do outreach to potential consultants and support them to become consultants",
+      "variations": [
+        "outreach team member"
+      ]
+    },
+    {
+      "term": "Advisory committee",
+      "definition": "A trained group of people with lived experience of disability and intersectionality. They ensure representation of consultants on projects, and provides and mentorship to the consultants during the consultation process.",
+      "variations": [
+        "advisory committee member"
+      ]
+    },
+    {
+      "term": "Third-party conveners",
+      "definition": "Trained individuals who conducts and facilitates the consultation the behalf of Federally Regulated Entities.",
+      "variations": [
+        "convener"
+      ]
+    }
+  ]
 }

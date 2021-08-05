@@ -16,6 +16,7 @@
         },
         "newlines": {
             "excludes": [
+                "./src/_data/*.json",
                 "./src/assets/**/*.woff",
                 "./src/assets/**/*.woff2",
                 "./src/blueprint-steps/*.md",

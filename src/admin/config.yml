@@ -103,3 +103,20 @@ collections:
       - {label: "Preview Image", name: "metaImage", widget: "image", required: false}
       - {label: "Preview Image Alt Text", name: "metaImageAlt", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: data
+    label: Data
+    files:
+      - name: definitions
+        label: Definitions
+        file: "src/_data/definitions.json"
+        editor:
+          preview: false
+        fields:
+          - label: Roles
+            label_singular: Role
+            name: roles
+            widget: list
+            fields:
+              - {label: Term, name: term, widget: string}
+              - {label: Definition, name: definition, widget: text}
+              - {label: Variations, name: variations, widget: list}
