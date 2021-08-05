@@ -4,7 +4,24 @@
 
 {% block content %}
 <div class="content flow">
-    {{ content | safe }}
+    {% for section in sections %}
+    <section class="flow" x-data="{ open : false }">
+        <button class="accordion" @click="open = ! open" :aria-expanded="open.toString()">
+            <h2>
+                {{ section.title }}
+                <svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1l6.5 6.5L14 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </h2>
+        </button>
+        {% if section.subtitle %}
+        <p class="subtitle">{{ section.subtitle }}</p>
+        {% endif %}
+        <div class="content flow" x-show="open">
+            {{ section.content | markdown | safe }}
+        </div>
+    </section>
+    {% endfor %}
 </div>
 <nav class="pagination flow" aria-label="pagination">
     {% if 'blueprint-consultants' in tags %}

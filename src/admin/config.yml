@@ -65,7 +65,13 @@ collections:
         - { label: "For consultants", value: "blueprint-consultants" }
         - { label: "For entities", value: "blueprint-entities" }
         - { label: "For both", value: "blueprint-both" }
-      - {label: "Body", name: "body", widget: "markdown", default: "## Who's involved\n\n_Some info about this section_\n\nTODO.\n\n## What's happening\n\n_Some info about this section_\n\nTODO.\n\n## Communications channels and tools\n\n_Some info about this section_\n\nTODO.\n\n## Backstage processes\n\n_Some info about this section_\n\nTODO.\n\n## Support processes\n\n_Some info about this section_\n\nTODO.\n\n## Potential barriers\n\n_Some info about this section_\n\nTODO."}
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+          - {label: "Content", name: "content", widget: "markdown", buttons: [bold, italic, link, bulleted-list, numbered-list], editor_components: []}
   - name: steps
     label: Map Steps
     label_singular: Map Step
