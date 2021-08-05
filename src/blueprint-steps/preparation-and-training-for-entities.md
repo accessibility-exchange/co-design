@@ -1,7 +1,7 @@
 ---
-title: Outreach for consultants
-step: 1
-tags: ["blueprint-consultants"]
+title: Preparation and training for entities
+step: 4
+tags: ["blueprint-entities"]
 ---
 ## Who's involved
 

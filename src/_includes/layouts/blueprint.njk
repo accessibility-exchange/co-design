@@ -1,0 +1,22 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "page" %}
+
+{% block content %}
+<div class="content flow">
+    {{ content | safe }}
+    <h2>What's happening</h2>
+    <h3>For consultants</h3>
+    {% for step in collections["blueprint-consultants"] %}
+    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+    {% endfor %}
+    <h3>For entities</h3>
+    {% for step in collections["blueprint-entities"] %}
+    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+    {% endfor %}
+    <h3>For both</h3>
+    {% for step in collections["blueprint-both"] %}
+    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+    {% endfor %}
+</div>
+{% endblock %}

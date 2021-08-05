@@ -1,6 +1,6 @@
 ---
-title: Outreach for consultants
-step: 1
+title: Fill out consultant page
+step: 3
 tags: ["blueprint-consultants"]
 ---
 ## Who's involved

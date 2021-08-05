@@ -1,7 +1,7 @@
 ---
-title: Outreach for consultants
-step: 1
-tags: ["blueprint-consultants"]
+title: Learning how to work together
+step: 6
+tags: ["blueprint-both"]
 ---
 ## Who's involved
 

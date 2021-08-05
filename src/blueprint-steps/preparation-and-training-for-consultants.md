@@ -1,6 +1,6 @@
 ---
-title: Outreach for consultants
-step: 1
+title: Preparation and training for consultants
+step: 4
 tags: ["blueprint-consultants"]
 ---
 ## Who's involved

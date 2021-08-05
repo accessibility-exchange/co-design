@@ -1,7 +1,7 @@
 ---
-title: Outreach for consultants
+title: Outreach for entities
 step: 1
-tags: ["blueprint-consultants"]
+tags: ["blueprint-entities"]
 ---
 ## Who's involved
 

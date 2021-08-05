@@ -1,7 +1,7 @@
 {
     "layout": "layouts/blueprint-step.njk",
     "permalink": "/resources/service-blueprint/{{ title | slug }}/",
-    "breadcrumbs": false,
+    "breadcrumbs": true,
     "publish": true,
     "publishFormat": "docx"
 }

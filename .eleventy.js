@@ -142,7 +142,6 @@ module.exports = function (config) {
             output: "dist",
             includes: "_includes"
         },
-        // markdownTemplateEngine: "njk",
         passthroughFileCopy: true
     };
 };

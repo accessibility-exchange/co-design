@@ -1,6 +1,6 @@
 ---
-title: Outreach for consultants
-step: 1
+title: Registration for consultants
+step: 2
 tags: ["blueprint-consultants"]
 ---
 ## Who's involved

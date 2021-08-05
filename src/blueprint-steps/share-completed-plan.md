@@ -1,7 +1,7 @@
 ---
-title: Outreach for consultants
-step: 1
-tags: ["blueprint-consultants"]
+title: Share completed plan
+step: 9
+tags: ["blueprint-both"]
 ---
 ## Who's involved
 

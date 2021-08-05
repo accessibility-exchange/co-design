@@ -48,12 +48,23 @@ collections:
     folder: "src/blueprint-steps"
     slug: "{{slug}}"
     preview_path: "/resources/service-blueprint/{{slug}}/"
+    sortable_fields: [title, step]
     editor:
       preview: false
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Step Number", name: "step", widget: "number", min: 1, value_type: "float", step: 1}
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 1
+        options:
+        - { label: "For consultants", value: "blueprint-consultants" }
+        - { label: "For entities", value: "blueprint-entities" }
+        - { label: "For both", value: "blueprint-both" }
       - {label: "Body", name: "body", widget: "markdown", default: "## Who's involved\n\n_Some info about this section_\n\nTODO.\n\n## What's happening\n\n_Some info about this section_\n\nTODO.\n\n## Communications channels and tools\n\n_Some info about this section_\n\nTODO.\n\n## Backstage processes\n\n_Some info about this section_\n\nTODO.\n\n## Support processes\n\n_Some info about this section_\n\nTODO.\n\n## Potential barriers\n\n_Some info about this section_\n\nTODO."}
   - name: steps
     label: Map Steps
