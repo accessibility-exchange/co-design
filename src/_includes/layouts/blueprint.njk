@@ -12,9 +12,7 @@
             <dt>
                 <button @click="open = ! open" :aria-expanded="open.toString()">
                     {{ role.term }}
-                    <svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1l6.5 6.5L14 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+                    {% include "svg/chevron.svg" %}
                 </button>
             </dt>
             <dd x-show="open">{{ role.definition }}</dd>
@@ -22,17 +20,26 @@
     {%- endfor %}
     </dl>
     <h2>What's happening</h2>
-    <h3>For consultants</h3>
-    {% for step in collections["for-consultants"] | sort(false, false, data.step)%}
-    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
-    {% endfor %}
-    <h3>For entities</h3>
-    {% for step in collections["for-entities"] | sort(false, false, data.step)%}
-    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
-    {% endfor %}
-    <h3>For both</h3>
-    {% for step in collections["for-both"] | sort(false, false, data.step)%}
-    <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
-    {% endfor %}
+    <div class="side-by-side flow">
+        <div class="flow consultants">
+        <h3>{% include "svg/consultants.svg" %} For consultants</h3>
+        {% for step in collections["for-consultants"] | sort(false, false, data.step)%}
+        <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+        {% endfor %}
+        </div>
+        <div class="flow entities">
+        <h3>{% include "svg/entities.svg" %} For entities</h3>
+        {% for step in collections["for-entities"] | sort(false, false, data.step)%}
+        <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="both flow">
+        {% include "svg/join.svg" %}
+        <h3>{% include "svg/both.svg" %} For both</h3>
+        {% for step in collections["for-both"] | sort(false, false, data.step)%}
+        <p><a href="{{ step.url }}">{{ step.data.title }}</a></p>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}

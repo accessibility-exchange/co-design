@@ -1,5 +1,6 @@
 ---
-title: Preparation and training for consultants
+title: Preparation and training
+permalink: /resources/service-blueprint/preparation-and-training-for-consultants/
 step: 4
 for: consultants
 sections:    

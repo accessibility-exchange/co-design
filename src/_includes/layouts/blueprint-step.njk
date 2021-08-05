@@ -9,9 +9,7 @@
         <button class="accordion" @click="open = ! open" :aria-expanded="open.toString()">
             <h2 id="{{ section.title | slug }}">
                 {{ section.title }}
-                <svg width="15" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1l6.5 6.5L14 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
+                {% include "svg/chevron.svg" %}
             </h2>
         </button>
         {% if section.subtitle %}

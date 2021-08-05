@@ -1,5 +1,6 @@
 ---
-title: Preparation and training for entities
+title: Preparation and training
+permalink: /resources/service-blueprint/preparation-and-training-for-entities/
 step: 4
 for: entities
 sections:    

@@ -295,6 +295,38 @@ summary,
     }
 }
 
+.join {
+    display: none;
+}
+
+.side-by-side > * h3,
+.both h3 {
+    margin: 1em 0 0;
+}
+
+@media (min-width: 768px) {
+    .side-by-side {
+        display: flex;
+        flex-direction: row;
+        margin-block-start: 0;
+
+        > * {
+            margin-block-start: 0;
+            width: calc(50% - var(--step-0) / 2);
+        }
+    }
+
+    .both {
+        margin-inline: auto;
+        width: calc(50% - var(--step-0) / 2);
+    }
+
+    .join {
+        display: block;
+        margin-block-start: var(--step-2);
+    }
+}
+
 section {
     margin-top: var(--step-2);
 }
