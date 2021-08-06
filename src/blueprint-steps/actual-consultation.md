@@ -37,7 +37,7 @@ sections:
       * Representative consultants check in with their constituency group, gather their feedback through comments and direct quotes, and report back
   - title: Frontline activities
     subtitle: Activities of frontline staff and stakeholders that directly support
-      the consultants/ and entities’ experience
+      the consultants and entities’ experience
     content: >-
       **Social enterprise**
 
