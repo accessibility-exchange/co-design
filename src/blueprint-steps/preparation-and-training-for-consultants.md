@@ -61,7 +61,7 @@ sections:
       * Disability organizations need to have enough capacity to come up with
       and conduct the training
 
-      T* raining may not be in accessible formats for the consultants
+      * Training may not be in accessible formats for the consultants
 
       * Disability organizations don’t want to compete with each other to provide training
 
