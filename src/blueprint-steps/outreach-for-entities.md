@@ -18,16 +18,16 @@ sections:
       * Phone 
       * Website
   - title: What's happening
-    subtitle: Activities that the entities is being directly involved in
+    subtitle: Activities that the entities are being directly involved in
     content: >-
       * Outreach team builds a relationship with the entity, builds awareness of
       this project, and provides an accessible walkthrough of the process
 
       * Entity can see successful completed projects by other entities, communities represented, and available resources, trainings, and access support professionals 
 
-      * IRIS/Social enterprise provides legal resources to answer entity’s questions and explain their legal obligations under the act
+      * Social enterprise provides legal resources to answer entity’s questions and explain their legal obligations under the act
 
-      * IRIS/Social enterprise makes clear the pricing terms, including a standardized consulting fee
+      * Social enterprise makes clear the pricing terms, including a standardized consulting fee
 
       * Outreach team recruits third party conveners and gives them a walkthrough of the process and how they can use the website to assist entities in their consultation
   - title: Frontline activities
@@ -39,7 +39,7 @@ sections:
 
       * Find out which types of entities are under-represented on the platform, comes up with engagement strategies
 
-      * Build connections with accessibility and DEI teams within different entities
+      * Build connections with accessibility and Diversity, Inclusion, and Equity (DEI) teams within different entities
 
 
       **Social enterprise**
