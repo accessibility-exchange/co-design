@@ -35,7 +35,7 @@ sections:
       * Consultants can connect with each other to learn about the strengths, expertise, and lived experience each person brings
   - title: Frontline activities
     subtitle: Activities of frontline staff and stakeholders that directly support
-      the consultants/ and entities’ experience
+      the consultants' and entities’ experience
     content: >-
       **Social enterprise**
 
