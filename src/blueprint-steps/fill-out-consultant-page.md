@@ -1,5 +1,5 @@
 ---
-title: Creating a consultant page
+title: Fill out consultant page
 step: 3
 for: consultants
 sections:
