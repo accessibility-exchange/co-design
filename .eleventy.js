@@ -49,7 +49,7 @@ module.exports = function (config) {
                 const dictionary = getTerms();
 
                 sections.forEach(section => {
-                    let content = section.innerText;
+                    let content = section.innerHTML;
                     dictionary.forEach(term => {
                         let expression = new RegExp(term, "i");
                         let definition = getDefinition(term);
