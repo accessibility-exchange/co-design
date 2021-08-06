@@ -10,7 +10,7 @@ sections:
   - title: What's happening
     subtitle: Some info about this section
     content: |
-      TODO.
+      Odio malesuada ut felis nisi felis outreach team velit. Urna, egestas malesuada enim massa. Leo aliquet sagittis urna nibh. Vitae in ac entities quam tincidunt. Sagittis vitae massa bibendum est.
   - title: Communications channels and tools
     subtitle: Some info about this section
     content: |

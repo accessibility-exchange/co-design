@@ -13,7 +13,8 @@
       "definition": "Consultants who represent a constituency group. They are appointed by the group, or matched by the Social Enterprise.",
       "variations": [
         "representatives",
-        "representative"
+        "representative",
+        "representative consultant"
       ]
     },
     {
@@ -28,8 +29,7 @@
       "term": "Disability organizations",
       "definition": "Any organization that serves the disability community. ",
       "variations": [
-        "organization",
-        "organizations"
+        "disability organization"
       ]
     },
     {

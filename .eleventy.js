@@ -14,6 +14,7 @@ https://github.com/fluid-project/trivet/raw/main/LICENSE.md.
 
 const fs = require("fs");
 const { DateTime } = require("luxon");
+const { parseHTML } = require("linkedom");
 
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
@@ -26,6 +27,10 @@ const calloutShortcode = require("./src/shortcodes/callout.js");
 const htmlMinTransform = require("./src/transforms/html-min-transform.js");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
+// Import utils
+const getDefinition = require("./src/utils/getDefinition.js");
+const getTerms = require("./src/utils/getTerms.js");
+
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
@@ -35,6 +40,30 @@ module.exports = function (config) {
     // Transforms
     config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
+    config.addTransform("definitions", function (value, outputPath) {
+        if (outputPath && outputPath.includes(".html")) {
+            let {document} = parseHTML(value);
+            const sections = [...document.querySelectorAll("main section .content")];
+
+            if (sections.length) {
+                const dictionary = getTerms();
+
+                sections.forEach(section => {
+                    let content = section.innerText;
+                    dictionary.forEach(term => {
+                        let expression = new RegExp(term, "i");
+                        let definition = getDefinition(term);
+                        content = content.replace(expression, `<strong title="${definition}">$&</strong>`);
+
+                    });
+                    section.innerHTML = content;
+                });
+            }
+
+            return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;
+        }
+        return value;
+    });
 
     // Filters
     config.addFilter("formatTime", function (date) {
