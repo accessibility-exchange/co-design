@@ -19,7 +19,7 @@ sections:
       * Virtual (webinars, online courses, surveys, audio/video etc.)
       * Paper (Booklets, flyers, posters, etc.)
   - title: What's happening
-    subtitle: Activities that the entities is being directly involved in
+    subtitle: Activities that the entities are being directly involved in
     content: >-
       * Entities do an assessment for their disability awareness and readiness
       to engage
