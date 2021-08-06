@@ -16,7 +16,7 @@ sections:
       * Phone
       * Website
   - title: What's happening
-    subtitle: Activities that the entities is being directly involved in
+    subtitle: Activities that the entities are being directly involved in
     content: >-
       
       * Entities and third party conveners register 
