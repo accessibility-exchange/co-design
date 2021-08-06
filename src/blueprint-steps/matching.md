@@ -34,7 +34,7 @@ sections:
       * If consultants accept, they can specify whether they have a caregiver or a support person (ex. ally, emotional support)
   - title: Frontline activities
     subtitle: Activities of frontline staff and stakeholders that directly support
-      the consultants/ and entities’ experience
+      the consultants' and entities’ experience
     content: >-
       **Social enterprise and Advisory Committee**
 
