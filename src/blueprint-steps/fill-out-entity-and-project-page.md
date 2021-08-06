@@ -16,7 +16,7 @@ sections:
       * In-person
       * Website
   - title: What's happening
-    subtitle: Activities that the entities is being directly involved in
+    subtitle: Activities that the entities are being directly involved in
     content: >-
       * Social enterprise works with entities to build their entity and project
       page
