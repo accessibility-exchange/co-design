@@ -18,7 +18,7 @@ sections:
       * Phone 
       * Website
   - title: What's happening
-    subtitle: Activities that the entities is being directly involved in
+    subtitle: Activities that the entities are being directly involved in
     content: >-
       * Outreach team builds a relationship with the entity, builds awareness of
       this project, and provides an accessible walkthrough of the process
