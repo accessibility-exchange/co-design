@@ -15,7 +15,7 @@
         {% if section.subtitle %}
         <p class="subtitle">{{ section.subtitle }}</p>
         {% endif %}
-        <div class="content flow" x-show="open">
+        <div class="content flow" x-show="open" x-cloak>
             {{ section.content | markdown | safe }}
         </div>
     </section>

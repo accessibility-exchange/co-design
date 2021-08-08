@@ -58,12 +58,12 @@ module.exports = function (value, outputPath) {
                         let expression = new RegExp(term, "i");
                         let found = content.match(expression);
                         if (found) {
-                            done.push(term);
                             const entry = getEntry(term);
-                            content = content.replace(found[0], `<span class="term" x-data="{ toggled : false }" @keyup.esc.window="toggled = false">
-                                    <button @click="toggled = ! toggled" :aria-expanded="toggled.toString()" aria-labelledby="term-btn-${i} term-${i}" aria-describedby="definition-${i}">?<span class="visually-hidden" id="term-btn-${i}">more info about</span></button>
-                                    <span id="term-${i}">${found[0]}</span>
-                                </span>`);
+                            done.push(term);
+                            entry.variations.forEach(variation => {
+                                done.push(variation);
+                            });
+                            content = content.replace(found[0], `<span class="term" data-id="${i}">${found[0]}</span>`);
                             definitions.push(entry.definition);
                             i++;
                         }
@@ -76,10 +76,8 @@ module.exports = function (value, outputPath) {
         const terms = [...document.querySelectorAll("main section .term")];
 
         if (terms.length) {
-            let i = 1;
             terms.forEach(term => {
-                term.innerHTML = `${term.innerHTML}<span class="definition" id="definition-${i}" role="region" aria-describedby="term-${i}" tabindex="0" x-cloak x-show="toggled" @click.outside="toggled = false">${definitions[i - 1]}</span>`;
-                i++;
+                term.outerHTML = `<span class="term" x-data="{ toggled : false }" @keyup.esc.window="toggled = false"><button @click="toggled = ! toggled" :aria-expanded="toggled.toString()" aria-labelledby="term-btn-${term.dataset.id} term-${term.dataset.id}" aria-describedby="definition-${term.dataset.id}">?<span class="visually-hidden" id="term-btn-${term.dataset.id}">more info about</span></button> <span id="term-${term.dataset.id}">${term.innerText}</span><span class="definition" id="definition-${term.dataset.id}" role="region" aria-describedby="term-${term.dataset.id}" tabindex="0" x-cloak x-show="toggled" @click.outside="toggled = false">${definitions[term.dataset.id - 1]}</span></span>`;
             });
         }
 
