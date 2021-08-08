@@ -33,8 +33,8 @@ module.exports = function (config) {
     config.addPairedShortcode("callout", calloutShortcode);
 
     // Transforms
-    config.addTransform("htmlmin", htmlMinTransform);
     config.addTransform("parse", parseTransform);
+    config.addTransform("htmlmin", htmlMinTransform);
 
     // Filters
     config.addFilter("formatTime", function (date) {
