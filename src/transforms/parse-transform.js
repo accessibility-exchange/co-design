@@ -12,6 +12,9 @@ https://github.com/fluid-project/trivet/raw/main/LICENSE.md.
 
 "use strict";
 
+const getEntry = require("../utils/getEntry.js");
+const getTerms = require("../utils/getTerms.js");
+
 const {parseHTML} = require("linkedom");
 
 module.exports = function (value, outputPath) {
@@ -36,6 +39,47 @@ module.exports = function (value, outputPath) {
                 ) {
                     link.setAttribute("rel", "external");
                 }
+            });
+        }
+
+        const sections = [...document.querySelectorAll("main section .content")];
+        const definitions = [];
+
+        if (sections.length) {
+            let i = 1;
+            const dictionary = getTerms();
+            const done = [];
+
+            sections.forEach(section => {
+                let content = section.innerHTML;
+
+                dictionary.forEach(term => {
+                    if (!done.includes(term)) {
+                        let expression = new RegExp(term, "i");
+                        let found = content.match(expression);
+                        if (found) {
+                            done.push(term);
+                            const entry = getEntry(term);
+                            content = content.replace(found[0], `<span class="term" x-data="{ toggled : false }" @keyup.esc.window="toggled = false">
+                                    <button @click="toggled = ! toggled" :aria-expanded="toggled.toString()" aria-labelledby="term-btn-${i} term-${i}" aria-describedby="definition-${i}">?<span class="visually-hidden" id="term-btn-${i}">more info about</span></button>
+                                    <span id="term-${i}">${found[0]}</span>
+                                </span>`);
+                            definitions.push(entry.definition);
+                            i++;
+                        }
+                    }
+                });
+                section.innerHTML = content;
+            });
+        }
+
+        const terms = [...document.querySelectorAll("main section .term")];
+
+        if (terms.length) {
+            let i = 1;
+            terms.forEach(term => {
+                term.innerHTML = `${term.innerHTML}<span class="definition" id="definition-${i}" role="region" aria-describedby="term-${i}" tabindex="0" x-cloak x-show="toggled" @click.outside="toggled = false">${definitions[i - 1]}</span>`;
+                i++;
             });
         }
 

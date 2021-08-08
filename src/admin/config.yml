@@ -119,4 +119,3 @@ collections:
             fields:
               - {label: Term, name: term, widget: string}
               - {label: Definition, name: definition, widget: text}
-              - {label: Variations, name: variations, widget: list}

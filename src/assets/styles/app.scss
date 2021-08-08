@@ -53,6 +53,41 @@ body {
     min-height: 100vh;
 }
 
+[x-cloak] {
+    display: none !important;
+}
+
+.term {
+    position: relative;
+}
+
+.term button {
+    border-radius: 50%;
+    font-size: var(--step--1);
+    font-weight: 400;
+    height: 1.5em;
+    line-height: 1;
+    padding: 0.3em 0.25em;
+    text-align: center;
+    width: 1.5em;
+}
+
+.term .definition {
+    background: var(--ll-background-color);
+    border: var(--ll-border-thin);
+    box-shadow: 0 0 var(--step--5) var(--ll-text-color);
+    display: block;
+    padding: var(--step-0);
+    position: absolute;
+    width: 50vw;
+    z-index: 99;
+
+    &:focus {
+        box-shadow: 0 0 var(--step--5) var(--ll-text-color), 0 0 0 var(--step--5) var(--ll-accent-color) inset;
+        outline: none;
+    }
+}
+
 #skip-to-content {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
