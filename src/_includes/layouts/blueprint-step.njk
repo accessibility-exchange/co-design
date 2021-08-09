@@ -24,7 +24,7 @@
 <nav class="pagination flow" aria-label="pagination">
     {% if for === "consultants" %}
     {% set correspondingStep = false %}
-    {% for item in collections["for-consultants"] %}
+    {% for item in collections["for-entities"] %}
         {% if item.data.step === step %}
         {% set correspondingStep = item %}
         {% endif %}
@@ -32,7 +32,7 @@
     <p><a href="{{ correspondingStep.url }}">What's happening for entities</a></p>
     {% elif for === "entities" %}
     {% set correspondingStep = false %}
-    {% for item in collections["for-entities"] %}
+    {% for item in collections["for-consultants"] %}
         {% if item.data.step === step %}
         {% set correspondingStep = item %}
         {% endif %}
