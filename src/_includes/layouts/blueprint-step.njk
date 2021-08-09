@@ -5,7 +5,7 @@
 {% block content %}
 <div class="content flow">
     {% for section in sections %}
-    <section class="flow" x-data="{ open : true }" aria-labelledby="{{ section.title | slug }}">
+    <section class="flow" x-data="{ open : false }" aria-labelledby="{{ section.title | slug }}">
         <button class="accordion" @click="open = ! open" :aria-expanded="open.toString()">
             <h2 id="{{ section.title | slug }}">
                 {{ section.title }}

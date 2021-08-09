@@ -62,14 +62,24 @@ body {
 }
 
 .term button {
+    --ll-text-color: var(--ll-theme-text-color, #575757);
+    --ll-background-color: var(--ll-theme-background-color, #fff);
+
+    border-color: var(--ll-text-color);
     border-radius: 50%;
     font-size: var(--step--1);
     font-weight: 400;
     height: 1.5em;
     line-height: 1;
-    padding: 0.3em 0.25em;
+    padding: 0.25em 0.25em 0.3em;
     text-align: center;
     width: 1.5em;
+}
+
+.term__term {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
 }
 
 .term__definition {
@@ -82,7 +92,7 @@ body {
     z-index: 99;
 
     &:focus {
-        box-shadow: 0 0 var(--step--5) var(--ll-text-color), 0 0 0 var(--step--5) var(--ll-accent-color) inset;
+        box-shadow: 0 0 var(--step--5) var(--ll-text-color), 0 0 0 var(--step--5) var(--ll-theme-accent-color, var(--ll-accent-color)) inset;
         outline: none;
     }
 }
