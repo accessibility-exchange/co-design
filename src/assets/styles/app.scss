@@ -72,14 +72,13 @@ body {
     width: 1.5em;
 }
 
-.term .definition {
+.term__definition {
     background: var(--ll-background-color);
     border: var(--ll-border-thin);
     box-shadow: 0 0 var(--step--5) var(--ll-text-color);
-    display: block;
+    max-width: calc(100vw - (var(--step-0) * 2));
     padding: var(--step-0);
-    position: absolute;
-    width: 50vw;
+    width: 35ch;
     z-index: 99;
 
     &:focus {
