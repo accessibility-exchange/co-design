@@ -9,7 +9,13 @@ export default () => ({
                 {
                     name: "offset",
                     options: {
-                        offset: [0, 20]
+                        offset: [0, 24]
+                    }
+                },
+                {
+                    name: "preventOverflow",
+                    options: {
+                        padding: 10
                     }
                 }
             ]

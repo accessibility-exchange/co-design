@@ -77,7 +77,7 @@ module.exports = function (value, outputPath) {
 
         if (terms.length) {
             terms.forEach(term => {
-                term.outerHTML = `<span class="term" x-data="toggleTip" @keyup.esc.window="toggled = false"><button @click="toggle()" :aria-expanded="toggled.toString()" x-ref="trigger" aria-labelledby="term-btn-${term.dataset.id} term-${term.dataset.id}" aria-describedby="definition-${term.dataset.id}">?<span class="visually-hidden" id="term-btn-${term.dataset.id}">more info about</span></button> <span class="term__term" id="term-${term.dataset.id}" x-ref="term">${term.innerText}</span><span class="term__definition" x-show="toggled" id="definition-${term.dataset.id}" role="region" aria-describedby="term-${term.dataset.id}" tabindex="0" @click.outside="toggled = false" x-ref="definition">${definitions[term.dataset.id - 1]}</span></span>`;
+                term.outerHTML = `<span class="term" x-data="toggleTip" @keyup.esc.window="toggled = false"><button @click="toggle()" :aria-expanded="toggled.toString()" x-ref="trigger" aria-labelledby="term-btn-${term.dataset.id} term-${term.dataset.id}" aria-describedby="definition-${term.dataset.id}">?<span class="visually-hidden" id="term-btn-${term.dataset.id}">more info about</span></button> <span class="term__term" id="term-${term.dataset.id}" x-ref="term">${term.innerText}</span><span class="term__definition" x-show="toggled" id="definition-${term.dataset.id}" role="region" aria-describedby="term-${term.dataset.id}" tabindex="0" @click.outside="toggled = false" x-ref="definition">${definitions[term.dataset.id - 1]}<span data-popper-arrow></span></span></span>`;
             });
         }
 
