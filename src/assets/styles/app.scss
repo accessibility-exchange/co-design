@@ -77,11 +77,12 @@ body {
     width: 1.5em;
 }
 
-[data-popper-arrow] {
-    --arrow-color: var(--ll-accent-background-color);
+[data-popper-arrow],
+[class*=fl-theme]:not(.fl-theme-prefsEditor-default) [data-popper-arrow] {
+    --arrow-color: var(--ll-theme-accent-background-color, var(--ll-accent-background-color));
 
-    border-left: calc(2 * var(--step--5)) solid transparent;
-    border-right: calc(2 * var(--step--5)) solid transparent;
+    border-left: calc(2 * var(--step--5)) solid transparent !important;
+    border-right: calc(2 * var(--step--5)) solid transparent !important;
     height: 0;
     position: absolute;
     width: 0;
@@ -97,6 +98,7 @@ body {
     --focus-color: var(--ll-accent-color);
 
     background: var(--ll-accent-background-color);
+    border: var(--ll-border-thin);
     max-width: calc(100vw - (var(--step-0) * 2));
     padding: var(--step-0);
     width: 35ch;
