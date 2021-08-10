@@ -37,8 +37,7 @@
         "@11ty/eleventy-plugin-rss": "1.1.1",
         "@accessibility-in-action/looseleaf": "1.5.0",
         "eleventy-plugin-fluid": "0.2.1",
-        "luxon": "1.28.0",
-        "modern-css-reset": "1.4.0"
+        "luxon": "1.28.0"
     },
     "devDependencies": {
         "@commitlint/cli": "13.1.0",
