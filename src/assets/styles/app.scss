@@ -52,6 +52,79 @@ body {
     min-height: 100vh;
 }
 
+[x-cloak] {
+    display: none !important;
+}
+
+.term {
+    display: inline-block;
+    position: relative;
+}
+
+.term button {
+    --ll-text-color: var(--ll-theme-text-color, #575757);
+    --ll-background-color: var(--ll-theme-background-color, #fff);
+
+    border-color: var(--ll-text-color);
+    border-radius: 50%;
+    font-size: var(--step--1);
+    font-weight: 400;
+    height: 1.5em;
+    line-height: 1;
+    padding: 0.25em 0.25em 0.3em;
+    text-align: center;
+    width: 1.5em;
+}
+
+[data-popper-arrow],
+[class*=fl-theme]:not(.fl-theme-prefsEditor-default) [data-popper-arrow] {
+    --arrow-color: var(--ll-theme-accent-background-color, var(--ll-accent-background-color));
+
+    border-left: calc(2 * var(--step--5)) solid transparent !important;
+    border-right: calc(2 * var(--step--5)) solid transparent !important;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.term__term {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+}
+
+.term__definition {
+    --focus-color: var(--ll-accent-color);
+
+    background: var(--ll-accent-background-color);
+    border: var(--ll-border-thin);
+    max-width: calc(100vw - (var(--step-0) * 2));
+    padding: var(--step-0);
+    width: 35ch;
+    z-index: 99;
+
+    &:focus {
+        box-shadow: 0 0 0 var(--step--5) var(--ll-theme-accent-color, var(--ll-accent-color)) inset;
+        outline: none;
+
+        > [data-popper-arrow] {
+            --arrow-color: var(--ll-theme-accent-color, var(--ll-accent-color));
+        }
+    }
+}
+
+[data-popper-placement^='top'] > [data-popper-arrow] {
+    border-bottom: 0;
+    border-top: calc(2 * var(--step--5)) solid var(--arrow-color);
+    bottom: calc(-2 * var(--step--5));
+}
+
+[data-popper-placement^='bottom'] > [data-popper-arrow] {
+    border-bottom: calc(2 * var(--step--5)) solid var(--arrow-color);
+    border-top: 0;
+    top: calc(-2 * var(--step--5));
+}
+
 #skip-to-content {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);

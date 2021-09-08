@@ -10,44 +10,48 @@ You may obtain a copy of the New BSD License at
 https://github.com/fluid-project/trivet/raw/master/LICENSE.md.
 */
 
-"use strict";
+import Alpine from "alpinejs";
+import toggleTip from "./toggleTip.js";
 
-(function () {
-    const headings = document.querySelectorAll(".page--step article h3");
+Alpine.data("toggleTip", toggleTip);
+Alpine.start();
 
-    Array.prototype.forEach.call(headings, heading => {
-        const getContent = (elem) => {
-            let elems = [];
-            while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H3") {
-                elems.push(elem.nextElementSibling);
-                elem = elem.nextElementSibling;
-            }
+// (function () {
+//     const headings = document.querySelectorAll(".page--step article h3");
 
-            elems.forEach((node) => {
-                node.parentNode.removeChild(node);
-            });
+//     Array.prototype.forEach.call(headings, heading => {
+//         const getContent = (elem) => {
+//             let elems = [];
+//             while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H3") {
+//                 elems.push(elem.nextElementSibling);
+//                 elem = elem.nextElementSibling;
+//             }
 
-            return elems;
-        };
+//             elems.forEach((node) => {
+//                 node.parentNode.removeChild(node);
+//             });
 
-        let contents = getContent(heading);
+//             return elems;
+//         };
 
-        if (contents.length) {
-            let summary = document.createElement("summary");
-            summary.innerHTML = heading.textContent;
+//         let contents = getContent(heading);
 
-            let details = document.createElement("details");
+//         if (contents.length) {
+//             let summary = document.createElement("summary");
+//             summary.innerHTML = heading.textContent;
 
-            contents.forEach(node => {
-                details.appendChild(node);
-            });
+//             let details = document.createElement("details");
 
-            details.insertBefore(summary, details.firstChild);
+//             contents.forEach(node => {
+//                 details.appendChild(node);
+//             });
 
-            heading.outerHTML = details.outerHTML;
-        } else {
-            heading.outerHTML = `<p class="summary">${heading.textContent}</p>`;
-        }
+//             details.insertBefore(summary, details.firstChild);
 
-    });
-})();
+//             heading.outerHTML = details.outerHTML;
+//         } else {
+//             heading.outerHTML = `<p class="summary">${heading.textContent}</p>`;
+//         }
+
+//     });
+// })();

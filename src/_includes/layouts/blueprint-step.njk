@@ -15,7 +15,7 @@
         {% if section.subtitle %}
         <p class="subtitle">{{ section.subtitle }}</p>
         {% endif %}
-        <div class="content flow" x-show="open">
+        <div class="content flow" x-show="open" x-cloak>
             {{ section.content | markdown | safe }}
         </div>
     </section>
@@ -39,7 +39,7 @@
     {% endfor %}
     <p><a href="{{ correspondingStep.url }}">What's happening for consultants</a></p>
     {% endif %}
-    
+
     {% set previousStep = collections['for-' + for] | getPreviousCollectionItem(page) %}
     {% set nextStep = collections['for-' + for] | getNextCollectionItem(page) %}
 

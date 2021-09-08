@@ -1,25 +1,26 @@
 {
   "roles": [
     {
+        "term": "Representative consultants",
+        "definition": "Consultants who represent a constituency group. They are appointed by the group, or matched by the Social Enterprise.",
+        "variations": [
+          "representative consultant",
+          "representatives",
+          "representative"
+        ]
+    },
+    {
       "term": "Consultants",
       "definition": "People with lived experience of disability, who are independent or a part of a disability organization, who will consult with Entities on their accessibility plan. This also includes caregivers and parents.",
       "variations": [
-        "consultant",
-        "individual consultant"
-      ]
-    },
-    {
-      "term": "Representative consultants",
-      "definition": "Consultants who represent a constituency group. They are appointed by the group, or matched by the Social Enterprise.",
-      "variations": [
-        "representatives",
-        "representative"
+        "consultant"
       ]
     },
     {
       "term": "Federally regulated entities",
       "definition": "Any organization that is regulated by the federal government under the Accessible Canada Act.",
       "variations": [
+        "federally regulated entity",
         "entity",
         "entities"
       ]
@@ -28,8 +29,7 @@
       "term": "Disability organizations",
       "definition": "Any organization that serves the disability community. ",
       "variations": [
-        "organization",
-        "organizations"
+        "disability organization"
       ]
     },
     {
@@ -54,22 +54,22 @@
     {
       "term": "Outreach team",
       "definition": "People who are members of the disability community and/or other under-represented communities, who will do outreach to potential consultants and support them to become consultants",
-      "variations": [
-        "outreach team member"
-      ]
+      "variations": []
     },
     {
       "term": "Advisory committee",
       "definition": "A trained group of people with lived experience of disability and intersectionality. They ensure representation of consultants on projects, and provides and mentorship to the consultants during the consultation process.",
-      "variations": [
-        "advisory committee member"
-      ]
+      "variations": []
     },
     {
       "term": "Third-party conveners",
       "definition": "Trained individuals who conducts and facilitates the consultation the behalf of Federally Regulated Entities.",
       "variations": [
-        "convener"
+        "third party conveners",
+        "third party convener",
+        "third-party convener",
+        "convener",
+        "conveners"
       ]
     }
   ]

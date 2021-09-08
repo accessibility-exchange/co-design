@@ -26,7 +26,7 @@ sections:
       * Consultants receive detailed project orientation by Federally Regulated
       Entity/third party convener
 
-      * Consultants and Federally Regulated Entities/third party convener determine how to work together (ex. their starting point, communication methods, consultation process, timeline, access accommodations, ownership of ideas, how to create a safe environment, and how to handle conflicts)
+      * Consultants and Federally Regulated Entity/third party convener determine how to work together (ex. their starting point, communication methods, consultation process, timeline, access accommodations, ownership of ideas, how to create a safe environment, and how to handle conflicts)
 
       * Federally regulated entity or third party convener provides consultants with contracts like a Memorandum of Understanding (MOU). Consultants have access to legal support to understand, customize, and negotiate the contracts 
 

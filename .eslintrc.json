@@ -11,5 +11,11 @@
     },
     "parserOptions": {
         "ecmaVersion": 8
-    }
+    },
+    "overrides": [{
+        "files": ["./src/assets/scripts/app.js", "./src/assets/scripts/toggleTip.js"],
+        "parserOptions": {
+            "sourceType": "module"
+        }
+    }]
 }
