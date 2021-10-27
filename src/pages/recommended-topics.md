@@ -24,55 +24,40 @@ This document contains training topics for different stakeholders of the consult
 * Different cultural ways of viewing disability (ex. Social model of disability vs. medical model )
 * Views of Deafness and disability that include intersectionality
 * Deaf culture and its differences with the disability community
-
-* The differences between the Deaf and Hard of Hearing community
-
+    * The differences between the Deaf and Hard of Hearing community
 * Description of different disabilities that include invisible disabilities, mental health, neurodiversity, addiction, and substance use
-
-* Understanding how disability affects people at different ages differently
-
+    * Understanding how disability affects people at different ages differently
 * Diversity of perspectives on disability from within the community - how not everyone views their disability the same way
 * A glossary of appropriate terms to refer to disabilities (ex. Not using biomedical language for people with psychosocial disabilities / people labeled with psychiatric disabilities)
 
 ### Consultation with Deaf and Disability community
 
 * The historical and contemporary issues with a traditional consultation process
-
-* Doesn’t include accountability or proof of change
-* Inclusion near the end rather from the very beginning
-* Invisible labour that is done by people with disabilities and Deaf people
-
+    * Doesn’t include accountability or proof of change
+    * Inclusion near the end rather from the very beginning
+    * Invisible labour that is done by people with disabilities and Deaf people
 * Best practices and guidelines for how to do consultation with people with disabilities and make the consultation process accessible, inclusive, and safe
-
-* How to interact with BIPOC (Black, Indigenous, People of Colour) people with disabilities and Deaf people, and what racism looks like
-* How to interact with 2SLGBTQ+ people with disabilities and Deaf people, and what homophobia and transphobia looks like, using pronouns
-* How to interact respectfully with people with significant disabilities who have a caregiver or supporter
-
-* They may appear to be fully understanding what’s happening, but this isn’t always the case and is especially risky with legal and financial issues
-* Consider a video format for this
-
-* How to work with individuals that are represented by someone else (ex. Supporters, care givers)
-
-* The role and responsibilities of one’s caregiver or supporter
-* Be able to spot potentially unhealthy dynamics or patterns, such as Misrepresenting what someone is saying)
-
-* How to work with people who are homeless or live in poverty and treat them with respect and dignity
-* How to work with people with linguistic differences and neurodiversity - some people may not be able to say what they mean, especially when stressed - these people still need to be taken seriously
-* Anti-oppression approach and working in a non-hierarchical approach
-* Education around crip time and chronic time and being more flexible around the timing of their projects
-* How to protect and respect consultants’ privacy, not forcing people to come out (ex. people labelled with a psychiatric disability)
-
+    * How to interact with BIPOC (Black, Indigenous, People of Colour) people with disabilities and Deaf people, and what racism looks like
+    * How to interact with 2SLGBTQ+ people with disabilities and Deaf people, and what homophobia and transphobia looks like, using pronouns
+    * How to interact respectfully with people with significant disabilities who have a caregiver or supporter
+        * They may appear to be fully understanding what’s happening, but this isn’t always the case and is especially risky with legal and financial issues
+        * Consider a video format for this
+    * How to work with individuals that are represented by someone else (ex. Supporters, care givers)
+        * The role and responsibilities of one’s caregiver or supporter
+        * Be able to spot potentially unhealthy dynamics or patterns, such as Misrepresenting what someone is saying)
+    * How to work with people who are homeless or live in poverty and treat them with respect and dignity
+    * How to work with people with linguistic differences and neurodiversity - some people may not be able to say what they mean, especially when stressed - these people still need to be taken seriously
+    * Anti-oppression approach and working in a non-hierarchical approach
+    * Education around crip time and chronic time and being more flexible around the timing of their projects
+    * How to protect and respect consultants’ privacy, not forcing people to come out (ex. people labelled with a psychiatric disability)
 * How to assess their own organization’s readiness to change
 * Resources about how to plan and facilitate an accessible meeting whether online or offline
-
-* Technologies that are accessible, affordable, and easy to use
-* Accessible communication formats
-* Different types of accommodations and access supports
-
+    * Technologies that are accessible, affordable, and easy to use
+    * Accessible communication formats
+    * Different types of accommodations and access supports
 * Best practices and guidelines for developing an accessibility plan
-
-* How to interpret a broad range of knowledge and ways of expression
-* How to synthesize and transfer collected information to accessibility plans
+    * How to interpret a broad range of knowledge and ways of expression
+    * How to synthesize and transfer collected information to accessibility plans
 
 ## Topics For Consultants
 
@@ -87,12 +72,10 @@ This document contains training topics for different stakeholders of the consult
 
 * Views of Deafness and disability need to include intersectionality
 * Training on disability and intersectionality
-
-* Anti-oppression
-* Decolonization
-* Disability Justice
-* Human rights
-
+    * Anti-oppression
+    * Decolonization
+    * Disability Justice
+    * Human rights
 * Understanding disability across a lifespan
 
 ### Skills and professional development
@@ -100,17 +83,14 @@ This document contains training topics for different stakeholders of the consult
 * Basic computer and digital literacy skills
 * Breaking down internalized barriers about who a consultant is - training about what a “consultant” is and does
 * Training on how to be a consultant
-
-* How to not speak on someone’s behalf, but raise issues in allyship
-* Best practices for collaboration - for example, from Indigenous culture
-* Communication (how to talk to others about challenges, how to share the relevant stories, consulting with small vs big entities)
-* Self care and mental health (managing anxiety and stress, identifying your own boundaries, what a safe and healthy interaction looks like, what toxic behaviour looks like)
-
+    * How to not speak on someone’s behalf, but raise issues in allyship
+    * Best practices for collaboration - for example, from Indigenous culture
+    * Communication (how to talk to others about challenges, how to share the relevant stories, consulting with small vs big entities)
+    * Self care and mental health (managing anxiety and stress, identifying your own boundaries, what a safe and healthy interaction looks like, what toxic behaviour looks like)
 * How to build a constituency
-
-* Intersectional outreach
-* Compensation models
-* How to spot issues of control and power imbalance between caregiver / support person and the person with a disability
+    * Intersectional outreach
+    * Compensation models
+    * How to spot issues of control and power imbalance between caregiver / support person and the person with a disability
 
 ## Topics for caregivers
 
