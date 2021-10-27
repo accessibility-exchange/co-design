@@ -7,3 +7,4 @@ publish: false
 ---
 
 * [Accessible Design Guidelines](/resources/accessible-design-guidelines/)
+* [Best Practices for Entities on Engaging People with Disabilities](/resources/best-practices-for-entities/)
