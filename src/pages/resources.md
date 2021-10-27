@@ -5,4 +5,5 @@ eleventyNavigation:
     order: 4
 publish: false
 ---
-Coming soon!
+
+* [Accessible Design Guidelines](/resources/accessible-design-guidelines/)
