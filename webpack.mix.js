@@ -20,7 +20,6 @@ mix.setPublicPath("dist/assets");
 
 // Process JavaScript files with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
-mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/sessions.js", "dist/assets/scripts");
 
 // Process CSS with PostCSS.

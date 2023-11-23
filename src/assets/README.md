@@ -14,7 +14,6 @@ JavaScript files will be written to `/dist/assets/scripts`. Additional JavaScrip
 ```diff
 // Process JavaScript files with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
-mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
 mix.js("./src/assets/scripts/uio.js", "dist/assets/scripts");
 + mix.js("./src/assets/scripts/widget.js", "dist/assets/scripts");
 ```
